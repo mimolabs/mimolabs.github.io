@@ -490,20 +490,20 @@ footer :last-child > .accordion-content:last-child {
   margin-bottom: 0px;
 }
 
-.plans-card-row > .row > div:nth-child(2) > .plans-card > .plan-price > h2 {
+.plans-card-row > .row > div:nth-child(1) > .plans-card > .plan-price > h2 {
   color: #0088bb;
 }
 
-.plans-card-row > .row > div:nth-child(3) > .plans-card {
+.plans-card-row > .row > div:nth-child(2) > .plans-card {
   border-color: #90d6ae;
   box-shadow: 0 0 10px rgba(23, 172, 91,.5);
 }
 
-.plans-card-row > .row > div:nth-child(3) > .plans-card > .plan-price > h2 {
+.plans-card-row > .row > div:nth-child(2) > .plans-card > .plan-price > h2 {
   color: #17ac5b;
 }
 
-.plans-card-row > .row > div:nth-child(4) > .plans-card > .plan-price > h2{
+.plans-card-row > .row > div:nth-child(3) > .plans-card > .plan-price > h2{
   color: #f1476d;
 }
 
