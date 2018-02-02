@@ -20,56 +20,78 @@ function navactive() {
   <div class="row align-center banner plans-banner">
     <div class="plans-card-row large-12 columns text-center">
       <h2>Pricing Plans</h2>
-      <p>Pay per box, not sessions - no need to worry about additional monthly costs.<br>Everything is GDPR compliant out of the box.</p>
+      <p>Pay per guest, not sessions - no need to worry about additional monthly costs.<br>Everything is GDPR compliant out of the box.</p>
+
+      <div class="reveal" id="welcomeModal" data-reveal>
+        <h1>Welcome Price</h1>
+        <p class="lead">Your couch. It is mine.</p>
+        <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="reveal" id="engageModal" data-reveal>
+        <h1>Engage Price</h1>
+        <p class="lead">Your couch. It is mine.</p>
+        <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
 
       <div class="row align-center">
-        <div class="large-10 small-12 columns">
-          <h1>£99<br><p>One time fee</p></h1>
-        </div>
         <div class="large-4 medium-4 small-12 columns">
           <div class="center-cell plans-card large-12 medium-12 small-7 columns text-center">
             <div class="plan-title text-center">
-              <h3>Trial</h3>
+              <h3>Welcome</h3>
             </div>
             <div class="plan-price text-center">
-              <h2>14 Days Free</h2>
-              <p>No setup fee</p>
+              <h2>From $19/mo</h2>
             </div>
             <div class="plan-features-list text-center">
-              <p>See what MIMO can do for you.</p>
+              <p>Welcome your guests with beautifully simple splash pages.</p>
+            </div>
+            <div>
+              <button class="button" data-open="welcomeModal">Click me for a modal</button>
             </div>
           </div>
         </div>
         <div class="large-4 medium-4 small-12 columns align-center">
           <div class="center-cell plans-card large-12 medium-12 small-7 columns text-center">
             <div class="plan-title text-center">
-              <h3>Premium</h3>
+              <h3>Engage</h3>
             </div>
             <div class="plan-price text-center">
-              <h2>£15/mo</h2>
-              <p>Per AP</p>
+              <h2>From $99/mo</h2>
             </div>
             <div class="plan-features-list text-center">
-              <p>Ongoing support from the team to make the most of MIMO.</p>
+              <p>Engage with your guests and drive retention through targeted campaigns.</p>
+            </div>
+            <div>
+              <button class="button" data-open="engageModal">Click me for a modal</button>
             </div>
           </div>
         </div>
         <div class="large-4 medium-4 small-12 columns">
           <div class="center-cell plans-card large-12 medium-12 small-7 columns text-center">
             <div class="plan-title text-center">
-              <h3>Standard</h3>
+              <h3>Engage Plus</h3>
             </div>
             <div class="plan-price text-center">
-              <h2>£10/mo</h2>
-              <p>Per AP</p>
+              <h2>Contact Us</h2>
             </div>
             <div class="plan-features-list text-center">
-              <p>Access to all the good stuff, but go it alone with no support.</p>
+              <p>Need more than 100,000 emails/mo? Have other needs? Get in touch!</p>
+            </div>
+            <div>
+              <a href="/contact" class="button">Contact</a>
             </div>
           </div>
         </div>
         <div class="large-12 medium-12 small-12 columns">
-          <a style="margin-top:60px;" href="/join" class="button">
+          <h2 style="margin-top:90px;">Start your 14 day free trial</h2>
+          <a style="margin-top:30px;" href="/join" class="button">
             Get Started
           </a>
         </div>
@@ -79,21 +101,63 @@ function navactive() {
   <div class="row banner align-center">
     <div class="large-12 small-12 text-center columns">
       <h1>What's Included?</h1>
-      <p>MIMO Credits can be topped up in increments of 1000 for £25. Credits expire after 3 months.</p>
     </div>
-    <div class="large-3 medium-4 small-12 columns">
-      <h3>One Time Fee</h3>
-      <p>● Support to get up and running as soon as possible.</p>
-      <p>● 250 MIMO Credits.</p>
-    </div>
-    <div class="large-3 medium-4 small-12 columns">
-      <h3>Premium Plan</h3>
-      <p>● Includes premium support from our team.</p>
-      <p>● Content filtering.</p>
-      <p>● Monthly allowance of 200 MIMO Credits.</p>
-    </div>
-    <div class="large-3 medium-4 small-12 columns">
-      <h3>Simple</h3>
-      <p>● Documentation is provided to assist with use of MIMO.</p>
+    <div class="large-7 small-12 columns">
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th width="200">Welcome Plan</th>
+            <th width="150">Engage Plan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Beautiful Splash Pages</td>
+            <td>&#10003;</td>
+            <td>&#10003;</td>
+          </tr>
+          <tr>
+            <td>Unlimited Devices</td>
+            <td>&#10003;</td>
+            <td>&#10003;</td>
+          </tr>
+          <tr>
+            <td>Unlimited Integrations</td>
+            <td>&#10003;</td>
+            <td>&#10003;</td>
+          </tr>
+          <tr>
+            <td>Data Capture</td>
+            <td>&#10003;</td>
+            <td>&#10003;</td>
+          </tr>
+          <tr>
+            <td>MailChimp Connector</td>
+            <td>&#10003;</td>
+            <td>&#10003;</td>
+          </tr>
+          <tr>
+            <td>Automated Campaigns</td>
+            <td></td>
+            <td>&#10003;</td>
+          </tr>
+          <tr>
+            <td>Outbound Messaging</td>
+            <td></td>
+            <td>&#10003;</td>
+          </tr>
+          <tr>
+            <td>Audience Targeting</td>
+            <td></td>
+            <td>&#10003;</td>
+          </tr>
+          <tr>
+            <td>Monthly Emails</td>
+            <td>0</td>
+            <td>100,000</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
