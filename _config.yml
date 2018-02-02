@@ -1,0 +1,17 @@
+# Site settings
+title: Hotspot Management Tool
+email: hello@ct-networks.io
+description: > # this means to ignore newlines until "baseurl:"
+  Create beautiful hotspots with MIMO.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://get.mimo.today" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+
+gems: ['kramdown', 'jekyll-redirect-from']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
+
+permalink: /community/tutorials/:title.html

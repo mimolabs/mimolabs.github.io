@@ -1,0 +1,23 @@
+---
+layout: fixed-header
+---
+
+<script>
+function navactive() {
+  var id1 = document.querySelector("#tutorials");
+  var id2 = document.querySelector("#tutorials-mobi");
+  id1.style.backgroundColor = "#EEEEEE";
+  id2.style.backgroundColor = "#EEEEEE";
+
+}
+window.onload = navactive;
+</script>
+
+<div class="community mdl-grid">
+  <div class="community-post center-cell mdl-cell mdl-cell--9-col mdl-card mdl-shadow--1dp">
+
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    {{ content }}
+  </div>
+</div>

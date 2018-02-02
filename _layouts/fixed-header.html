@@ -1,0 +1,70 @@
+---
+layout: default
+---
+<div data-sticky-container>
+  <div id="sticky-header" class="sticky" data-sticky data-options="anchor: page; marginTop: 0;">
+
+    <div class="title-bar hide-for-medium-nav">
+      <div class="title-bar-title">
+        <div class="logo">
+          <a href="/"><img src="/images/logo/mimo-name.svg"></a>
+        </div>
+      </div>
+      <button class="menu-icon dark" type="button" onclick="openNav()"></button>
+    </div>
+
+    <div class="top-bar hide-for-small-only-nav">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu data-options="disableHover:true;clickOpen:true">
+          <li class="menu-text">
+            <div class="logo">
+              <a href="/"><img src="/images/logo/mimo-name.svg"></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="top-bar-right hide-for-small-only-nav">
+        <ul class="menu">
+          <li>
+            <a href="/plans">Pricing</a>
+          </li>
+          <!-- <li>
+            <a href="/product">Product</a>
+          </li> -->
+          <li>
+            <!-- <a href="/docs">Docs</a> -->
+          </li>
+          <li><a class="button" href="/join">Signup</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<main>
+
+<div id="navTray" class="overlay">
+  <div class="title-bar hide-for-medium-nav">
+    <div class="title-bar-title">
+      <div class="logo">
+        <a href="/"><img src="/images/logo/mimo-name.svg"></a>
+      </div>
+    </div>
+    <a class="closebtn" onclick="closeNav()">&times;</a>
+  </div>
+  <div class="overlay-content">
+    <div class="row">
+      <div class="small-12 columns text-center">
+        <h2><a href="/join">Signup</a></h2>
+        <h2><a href="/plans">Pricing</a></h2>
+        <!-- <h2><a href="/product">Product</a></h2> -->
+        <!-- <h2><a href="/docs">Docs</a></h2> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+    {{ content }}
+    {% include footer.html %}
+</main>
