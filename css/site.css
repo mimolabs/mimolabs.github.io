@@ -14,7 +14,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
@@ -31,11 +31,11 @@ p {
 }
 
 .sub-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 body, html {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: rgba(39, 50, 56, 0.6);;
 }
 
@@ -88,7 +88,7 @@ body, html {
 
 .top-bar li {
   font-size: 16px;
-  font-family: 'Josefin Sans', sans-serif
+  font-family: 'Source Sans Pro', sans-serif
 }
 
 .menu.vertical > li {
