@@ -665,3 +665,7 @@ footer :last-child > .accordion-content:last-child {
   font-size: 20px;
   font-weight: bold
 }
+
+.signedup {
+  display: none;
+}

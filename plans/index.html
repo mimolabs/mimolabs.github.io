@@ -12,16 +12,14 @@ function navactive() {
   id1.style.paddingBottom = "15px";
   id2.style.backgroundColor = "#EEEEEE";
 }
-
 </script>
 
 <div class="page-content" id="calculator">
 
   <div class="row align-center banner plans-banner">
     <div class="plans-card-row large-12 columns text-center">
-      <h2>Pricing Plans</h2>
-      <p>Pay per guest, not sessions - no need to worry about additional monthly costs.<br>Everything is GDPR compliant out of the box.</p>
-
+      <h2>Super Simple Pricing</h2>
+      <p>Pay only for what you use. No additional costs per access point and no restrictions on sessions. <br> The Engage Plan includes 100,000 emails per month. Whopper!</p>
       <div class="reveal" id="welcomeModal" data-reveal>
         <h1>Welcome Price</h1>
         <p class="lead">Your couch. It is mine.</p>
@@ -47,7 +45,7 @@ function navactive() {
               <h3>Welcome</h3>
             </div>
             <div class="plan-price text-center">
-              <h2>From $19/mo</h2>
+              <h2>From £19/mo</h2>
             </div>
             <div class="plan-features-list text-center">
               <p>Welcome your guests with beautifully simple splash pages.</p>
@@ -63,10 +61,10 @@ function navactive() {
               <h3>Engage</h3>
             </div>
             <div class="plan-price text-center">
-              <h2>From $99/mo</h2>
+              <h2>From £79/mo</h2>
             </div>
             <div class="plan-features-list text-center">
-              <p>Engage with your guests and drive retention through targeted campaigns.</p>
+              <p>Engage with your guests and drive retention with automated campaigns.</p>
             </div>
             <div>
               <button class="button" data-open="engageModal">Click me for a modal</button>
@@ -89,11 +87,19 @@ function navactive() {
             </div>
           </div>
         </div>
-        <div class="large-12 medium-12 small-12 columns">
+        <div class="large-6 medium-8 small-12 columns signedup">
+          <h3 style="margin-top:90px;">High-fives! Go forth and check your email for the secret password.</h3>
+        </div>
+        <div class="large-6 medium-8 small-12 columns signup">
           <h2 style="margin-top:90px;">Start your 14 day free trial</h2>
-          <a style="margin-top:30px;" href="/join" class="button">
-            Get Started
-          </a>
+          <p>Enter your business email to sign-up.</p>
+          <div class="input-group" style="margin-top:40px;margin-bottom:40px;">
+            <input class="input-group-field" name="email" type="text" placeholder="Enter your business email">
+            <div class="input-group-button">
+              <input type="submit" id="submitButton" class="button" value="Submit">
+            </div>
+          </div>
+          <p><b>14 day free trial</b>. Quick and easy setup!</p>
         </div>
       </div>
     </div>
@@ -118,7 +124,12 @@ function navactive() {
             <td>&#10003;</td>
           </tr>
           <tr>
-            <td>Unlimited Devices</td>
+            <td>Unlimited Access Points</td>
+            <td>&#10003;</td>
+            <td>&#10003;</td>
+          </tr>
+          <tr>
+            <td>Unlimited Networks</td>
             <td>&#10003;</td>
             <td>&#10003;</td>
           </tr>
@@ -152,12 +163,8 @@ function navactive() {
             <td></td>
             <td>&#10003;</td>
           </tr>
-          <tr>
-            <td>Monthly Emails</td>
-            <td>0</td>
-            <td>100,000</td>
-          </tr>
         </tbody>
       </table>
+      <small><b>$$$ and €€€ pricing available too. Nice.</b></small>
     </div>
   </div>
