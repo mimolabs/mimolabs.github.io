@@ -3,7 +3,6 @@ layout: default
 ---
 <div data-sticky-container>
   <div id="sticky-header" class="sticky" data-sticky data-options="anchor: page; marginTop: 0;">
-
     <div class="title-bar hide-for-medium-nav">
       <div class="title-bar-title">
         <div class="logo">
@@ -28,43 +27,36 @@ layout: default
           <li>
             <a href="/plans">Pricing</a>
           </li>
-          <!-- <li>
-            <a href="/product">Product</a>
-          </li> -->
-          <li>
-            <!-- <a href="/docs">Docs</a> -->
-          </li>
+          <!-- <li> -->
+          <!--   <a href="/docs">Docs</a> -->
+          <!-- </li> -->
           <li><a class="button" href="/join">Signup</a></li>
         </ul>
       </div>
     </div>
-
   </div>
 </div>
 
 <main>
-
-<div id="navTray" class="overlay">
-  <div class="title-bar hide-for-medium-nav">
-    <div class="title-bar-title">
-      <div class="logo">
-        <a href="/"><img src="/images/logo/mimo-name.svg"></a>
+  <div id="navTray" class="overlay">
+    <div class="title-bar hide-for-medium-nav">
+      <div class="title-bar-title">
+        <div class="logo">
+          <a href="/"><img src="/images/logo/mimo-name.svg"></a>
+        </div>
       </div>
+      <a class="closebtn" onclick="closeNav()">&times;</a>
     </div>
-    <a class="closebtn" onclick="closeNav()">&times;</a>
-  </div>
-  <div class="overlay-content">
-    <div class="row">
-      <div class="small-12 columns text-center">
-        <h2><a href="/join">Signup</a></h2>
-        <h2><a href="/plans">Pricing</a></h2>
-        <!-- <h2><a href="/product">Product</a></h2> -->
-        <!-- <h2><a href="/docs">Docs</a></h2> -->
+    <div class="overlay-content">
+      <div class="row">
+        <div class="small-12 columns text-center">
+          <h2><a href="/join">Signup</a></h2>
+          <h2><a href="/plans">Pricing</a></h2>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-    {{ content }}
-    {% include footer.html %}
+  {{ content }}
+  {% include footer.html %}
 </main>

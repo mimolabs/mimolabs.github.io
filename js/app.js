@@ -31,7 +31,7 @@ $('input#submitButton').click( function() {
   var email = $('input[name="email"]').val();
   if (email && isEmail(email)) {
     $.ajax({
-      url: 'http://app.mimo.test:8080/api/v1/holding_accounts',
+      url: 'https://api.ctapp.io/api/v1/holding_accounts',
       type: 'post',
       dataType: 'json',
       data: { email: email },
