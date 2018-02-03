@@ -42,3 +42,9 @@ $('input#submitButton').click( function() {
     });
   }
 });
+
+drift.on('ready',function(api){
+  $('.contact').click( function() {
+    api.goToNewConversation();
+  });
+});
