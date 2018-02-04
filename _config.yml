@@ -11,7 +11,8 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
-gems: ['kramdown', 'jekyll-redirect-from']
+gems: ['kramdown', 'jekyll-redirect-from', 'jekyll-minifier']
+
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
 
 permalink: /community/tutorials/:title.html
