@@ -16,27 +16,28 @@ function navactive() {
 
 <div class="page-content" id="calculator">
 
+  <div class="reveal" id="engageModal" data-reveal>
+    <h1><span class='planName'></span> Price</h1>
+    <p class="lead">Pay for what you use.</p>
+    <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+    <p class='enterpriseYes' style="display: none"><b>More than 5000 people</b>.</p>
+    <p class='enterpriseNo'><b>Total of <span class='totalPeople'>250</span> people</b></p>
+    <div class="slider" data-slider data-initial-start="250" data-step="50" data-end="5050">
+      <span class="slider-handle" data-slider-handle role="slider" tabindex="1"></span>
+      <span class="slider-fill" data-slider-fill></span>
+    </div>
+
+    <h3><span class='monthlyCost'>Monthly cost:</span> <span class='totalPrice'></span></h3>
+
+    <button class="close-button" data-close aria-label="Close modal" type="button">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
   <div class="row align-center banner plans-banner">
     <div class="plans-card-row large-12 columns text-center">
       <h2>Super Simple Pricing</h2>
       <p>Pay only for what you use. No additional costs per access point and no restrictions on sessions. <br> The Engage Plan includes 100,000 emails per month. Whopper!</p>
-      <div class="reveal" id="welcomeModal" data-reveal>
-        <h1>Welcome Price</h1>
-        <p class="lead">Your couch. It is mine.</p>
-        <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
-        <button class="close-button" data-close aria-label="Close modal" type="button">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-
-      <div class="reveal" id="engageModal" data-reveal>
-        <h1>Engage Price</h1>
-        <p class="lead">Your couch. It is mine.</p>
-        <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
-        <button class="close-button" data-close aria-label="Close modal" type="button">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
 
       <div class="row align-center">
         <div class="large-4 medium-4 small-12 columns">
@@ -51,7 +52,7 @@ function navactive() {
               <p>Welcome your guests with beautifully simple splash pages.</p>
             </div>
             <div>
-              <button class="button" data-open="welcomeModal">Click me for a modal</button>
+              <button class="button engage" iidata-open="engageModal" data-plan='splash'>Pricing</button>
             </div>
           </div>
         </div>
@@ -67,7 +68,7 @@ function navactive() {
               <p>Engage with your guests and drive retention with automated campaigns.</p>
             </div>
             <div>
-              <button class="button" data-open="engageModal">Click me for a modal</button>
+              <button class="button engage" data-plan="engage" iidata-open="engageModal">Pricing</button>
             </div>
           </div>
         </div>
@@ -83,7 +84,7 @@ function navactive() {
               <p>Need more than 100,000 emails/mo? Have other needs? Get in touch!</p>
             </div>
             <div>
-              <a href="/contact" class="button">Contact</a>
+              <a class="contact button">Contact</a>
             </div>
           </div>
         </div>
