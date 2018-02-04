@@ -1,17 +1,17 @@
 # Site settings
-title: Hotspot Management Tool
+title: WiFi Splash Pages and Email Capture | MIMO
 email: hello@ct-networks.io
 description: > # this means to ignore newlines until "baseurl:"
-  Create beautiful hotspots with MIMO.
+  Create beautiful splash pages, capture customer emails. Send automated marketting campaigns.  Get MIMO for your WiFi today. Works with all Unifi, Ruckus VSZ and Meraki WiFi Access Points.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://get.mimo.today" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://www.oh-mimo.com" # the base hostname & protocol for your site
+twitter_username: ohmimo
+github_username:  mimolabs
 
 # Build settings
 markdown: kramdown
 
-gems: ['kramdown', 'jekyll-redirect-from', 'jekyll-minifier']
+gems: ['kramdown', 'jekyll-redirect-from', 'jekyll-minifier', 'jekyll-seo-tag']
 
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
 
