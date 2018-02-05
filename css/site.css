@@ -30,6 +30,10 @@ p {
   line-height: 2rem;
 }
 
+p small {
+  color: rgba(13,54,80,0.3);
+}
+
 .sub-title {
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -137,10 +141,10 @@ body, html {
 
 .is-dropdown-submenu {
   margin-top: 15px;
-  min-width: 250px;
+  min-width: 200px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-radius: 20px;
+  border-radius: 8px;
   border-color: #ECEFF1;
   box-shadow: 0 5px 20px rgba(0,0,0,0.2);
 }
