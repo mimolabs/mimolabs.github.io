@@ -95,6 +95,15 @@ body, html {
   font-family: 'Source Sans Pro', sans-serif
 }
 
+.top-bar li .nav-subtext a {
+  color: rgba(39, 50, 56, 0.5)!important;
+  /*padding-left: 30px;*/
+  padding-right: 30px;
+  padding-bottom: 30px;
+  font-size: 12px;
+}
+
+
 .menu.vertical > li {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -141,7 +150,8 @@ body, html {
 
 .is-dropdown-submenu {
   margin-top: 15px;
-  min-width: 200px;
+  margin-bottom: 15px;
+  min-width: 300px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 8px;
