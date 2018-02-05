@@ -1,0 +1,32 @@
+---
+layout: fixed-header
+title: Keep up-to-date with the latest updates and posts from the MIMO team
+description: WiFi splash pages and email capture for cafes, hotels and small businesses. Meraki splash page. Ruckus splash. UniFi splash. Ubiquiti splash
+permalink: /blog/
+---
+
+<div class="page-content">
+
+  <div class="row align-center banner">
+    <div class="large-12 columns text-center">
+      <h1>MIMO Blog</h1>
+      <h3 class="sub-title">Keep up-to-date with the latest updates and posts from the MIMO team!</h3>
+    </div>
+  </div>
+
+  <div class="row banner">
+    <div class="center-cell large-12 medium-10 small-10 columns text-center">
+      {% for post in site.categories.blog %}
+      <li style="list-style:none;">
+        <hr>
+        <a href="{{ post.url }}">
+          <h3><img src="{{ post.thumbnail }}" width="auto" height="auto" style="max-height: 50px" align="center" /></h3>
+          <h2>{{post.title}}</h2>
+          {{ post.description }}
+        </a>
+      </li>
+      {% endfor %}
+      <hr>
+    </div>
+  </div>
+</div>
