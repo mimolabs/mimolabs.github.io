@@ -1,5 +1,10 @@
 // particlesJS.load('particles-js', 'particles.json')
 
+$(document).ready(function() {
+    // $('.invisible').show();
+    $("#nav-menu").removeClass( "invisible" )
+});
+
 $(document).foundation();
 
 $(window).scroll(function() {

@@ -1,5 +1,9 @@
 /*body*/
 
+.invisible {
+  display: none;
+}
+
 .row {
   max-width: 90rem;
 }
