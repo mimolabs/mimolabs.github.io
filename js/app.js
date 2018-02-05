@@ -1,28 +1,25 @@
-// particlesJS.load('particles-js', 'particles.json')
-
-$(document).ready(function() {
-    // $('.invisible').show();
-    $("#nav-menu").removeClass( "invisible" )
-});
-
 $(document).foundation();
 
+$(document).ready(function() {
+  $(".invisible-man").show()
+});
+
 $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    if (scroll > 0) {
-        $("#sticky-header").addClass("active");
-    }
-    else {
-        $("#sticky-header").removeClass("active");
-    }
+  var scroll = $(window).scrollTop();
+  if (scroll > 0) {
+    $("#sticky-header").addClass("active");
+  }
+  else {
+    $("#sticky-header").removeClass("active");
+  }
 });
 
 function openNav() {
-    document.getElementById("navTray").style.height = "100%";
+  document.getElementById("navTray").style.height = "100%";
 }
 
 function closeNav() {
-    document.getElementById("navTray").style.height = "0%";
+  document.getElementById("navTray").style.height = "0%";
 }
 
 console.log("%cWelcome to the jungle, what's going on pal?", "font-size: x-large")
