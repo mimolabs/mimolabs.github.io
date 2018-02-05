@@ -34,7 +34,6 @@ $('input#submitButton').click( function() {
   if (email && isEmail(email)) {
     $.ajax({
       url: 'https://api.ctapp.io/api/v1/holding_accounts',
-      // url: 'http://127.0.0.1:8080/api/v1/holding_accounts',
       type: 'post',
       dataType: 'json',
       data: { email: email },
