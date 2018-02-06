@@ -24,7 +24,7 @@ description: MIMO is officially live! Awesome splash pages and automated email c
 
     <h3>What is MIMO?</h3>
 
-    <p>MIMO is not just a typical splash page provider. MIMO is a splash page engagement platform designed for SMBs, letting you engage with your customers through your WiFi.</p>
+    <p>MIMO is not your typical splash page provider. MIMO is a splash page engagement platform designed for SMBs, letting you engage with your customers through your WiFi.</p>
 
     <p>On top of allowing you to create some stunning splash pages, MIMO allows you to really get to know who your customers are. It provides you with the tools needed to create campaigns designed to target your customer base and improve customer retention & loyalty.</p>
 
