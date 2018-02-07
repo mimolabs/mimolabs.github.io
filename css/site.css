@@ -251,6 +251,10 @@ body, html {
   padding-left: 10px;
 }
 
+.bg-top .button {
+  margin-top: 10px;
+}
+
 .button {
   display: inline-block;
   vertical-align: middle;
@@ -405,7 +409,7 @@ footer :last-child > .accordion-content:last-child {
   /*background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);*/
 }
 
-.bg-top h1, .bg-top h2, .bg-top h3, .bg-top img, .bg-top a {
+.bg-top h1, .bg-top h2, .bg-top h3, .bg-top h4, .bg-top img, .bg-top a {
   z-index: 2;
   position: relative;
 }
@@ -778,4 +782,30 @@ img.mappy {
   font-size: 1.8rem;
   line-height: 2.4rem;
   margin-bottom: 40px;
+}
+
+/*small*/
+
+@media screen and (max-width: 640px) {
+  .bg-top .button {
+    margin-top: 40px;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-weight: 600;
+  }
+  .row.banner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .flat-card {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
