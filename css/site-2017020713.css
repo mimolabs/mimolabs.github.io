@@ -1,5 +1,9 @@
 /*body*/
 
+.invisible-man {
+  display: none;
+}
+
 .row {
   max-width: 90rem;
 }
@@ -25,6 +29,10 @@ h2, h3, h4, h5, h6 {
   color: rgba(39, 50, 56, 0.8);
 }
 
+h1, h2 {
+  text-transform: capitalize;
+}
+
 p {
   font-size: 18px;
   line-height: 2rem;
@@ -41,6 +49,10 @@ p small {
 body, html {
   font-family: 'Source Sans Pro', sans-serif;
   color: rgba(13, 54, 80, 0.8);;
+}
+
+.text-center ul {
+  display: inline-block;
 }
 
 /*Nav Bar*/
@@ -239,6 +251,10 @@ body, html {
   padding-left: 10px;
 }
 
+.bg-top .button {
+  margin-top: 10px;
+}
+
 .button {
   display: inline-block;
   vertical-align: middle;
@@ -393,7 +409,7 @@ footer :last-child > .accordion-content:last-child {
   /*background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);*/
 }
 
-.bg-top h1, .bg-top h2, .bg-top h3, .bg-top img, .bg-top a {
+.bg-top h1, .bg-top h2, .bg-top h3, .bg-top h4, .bg-top img, .bg-top a {
   z-index: 2;
   position: relative;
 }
@@ -411,36 +427,40 @@ footer :last-child > .accordion-content:last-child {
  margin-bottom: 25px;
 }
 
-.home-trio {
+.home-icon-banner {
   border-bottom: solid 1px #ECEFF1;
   border-top: solid 1px #ECEFF1;
 }
 
-.home-trio .material-icons {
+.home-icon-banner .material-icons {
   font-size: 60px;
 }
 
-.home-trio > div > div > div > div:nth-child(2) > .material-icons {
+.home-icon-banner > div > div > div > div:nth-child(2) > .material-icons {
   color: #EF476F;
 }
 
-.home-trio > div > div > div > div:nth-child(3) > .material-icons {
+.home-icon-banner > div > div > div > div:nth-child(3) > .material-icons {
   color: #EF476F;
 }
 
-.home-trio > div > div > div > div:nth-child(4) > .material-icons {
+.home-icon-banner > div > div > div > div:nth-child(4) > .material-icons {
   color: #EF476F;
 }
 
-.home-trio > div > div > div > div > h2 {
+.home-icon-banner > div > div > div > div:nth-child(5) > .material-icons {
+  color: #EF476F;
+}
+
+.home-icon-banner > div > div > div > div > h2 {
   font-weight: 600;
 }
 
-.home-trio > div > div > div > div > h2 > span {
+.home-icon-banner > div > div > div > div > h2 > span {
   font-weight: 100;
 }
 
-.home-feature {
+.flat-card {
   z-index: 2;
   position: relative;
   background-color: white;
@@ -450,11 +470,7 @@ footer :last-child > .accordion-content:last-child {
   margin-bottom: 80px;
 }
 
-.home-feature:nth-child(4){
-  margin-bottom: 0px;
-}
-
-.home-feature img {
+.flat-card img {
   max-height: 300px;
 }
 
@@ -497,8 +513,6 @@ footer :last-child > .accordion-content:last-child {
 .plans-card-row > h2 {
   margin-bottom: 30px;
 }
-
-
 
 .plans-card-row > .row > div:nth-child(1) > h3 {
   margin-bottom: 0px;
@@ -568,16 +582,6 @@ footer :last-child > .accordion-content:last-child {
 
 .product-top {
   border-bottom: solid 1px #ECEFF1;
-}
-
-.product-feature {
-  z-index: 2;
-  position: relative;
-  background-color: white;
-  border: solid 1px #ECEFF1;
-  border-radius: 15px;
-  padding: 50px;
-  margin-bottom: 80px;
 }
 
 .integrations-logos img {
@@ -771,11 +775,37 @@ footer :last-child > .accordion-content:last-child {
 
 img.mappy {
   margin: 0px 0 100px 0;
-  max-width: 700px;
+  max-width: 600px;
 }
 
 .about-mimo p {
   font-size: 1.8rem;
   line-height: 2.4rem;
   margin-bottom: 40px;
+}
+
+/*small*/
+
+@media screen and (max-width: 640px) {
+  .bg-top .button {
+    margin-top: 40px;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-weight: 600;
+  }
+  .row.banner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .flat-card {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }

@@ -1,0 +1,27 @@
+---
+layout: fixed-header
+---
+
+<script>
+function navactive() {
+  var id1 = document.querySelector("#showcase");
+  var id2 = document.querySelector("#showcase-mobi");
+  id1.style.backgroundColor = "#EEEEEE";
+  id2.style.backgroundColor = "#EEEEEE";
+
+}
+window.onload = navactive;
+</script>
+
+<div class="bg-container">
+  <div class="row banner align-center">
+    <div class="large-11 medium-11 small-11 columns">
+      <div class="row align-middle flat-card">
+        <div class="large-12 medium-12 small-12 columns">
+          <p><a href="/blog/">< Return</a></p>
+          <div>{{ content }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
