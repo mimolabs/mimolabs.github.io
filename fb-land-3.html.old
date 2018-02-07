@@ -5,7 +5,7 @@ description: WiFi splash pages and email capture for cafes, hotels and small bus
 ---
 <div class="page-content">
 
-  <div class="bg-top">
+  <div class="fb-3">
     <div class="row banner home-banner align-middle align-center">
       <div class="large-10 columns">
         <div class="row align-middle">
@@ -18,7 +18,7 @@ description: WiFi splash pages and email capture for cafes, hotels and small bus
             <p class="hide-for-small-only"><small style="color: rgb(41, 72, 92);">14 day free trial. Works with all your favourite WiFi devices.</small></p>
           </div>
           <div class="large-7 show-for-large columns text-center">
-            <img src="/images/pages/showcase.svg" alt="WiFi management dashboard"></img>
+            <!-- <img src="/images/pages/showcase.svg" alt="WiFi management dashboard"></img> -->
           </div>
         </div>
       </div>

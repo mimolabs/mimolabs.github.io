@@ -413,7 +413,7 @@ footer :last-child > .accordion-content:last-child {
   position: relative;
   background: white;
   overflow: hidden;
-  background-image: url(/images/pages/fb-1.jpg);
+  background-image: url(/images/pages/fb-1-sm.jpg);
   background-size: cover;
 }
 
@@ -421,7 +421,7 @@ footer :last-child > .accordion-content:last-child {
   position: relative;
   background: white;
   overflow: hidden;
-  background-image: url(/images/pages/fb-2.jpg);
+  background-image: url(/images/pages/fb-2-sm.jpg);
   background-size: cover;
 }
 
@@ -429,7 +429,7 @@ footer :last-child > .accordion-content:last-child {
   position: relative;
   background: white;
   overflow: hidden;
-  background-image: url(/images/pages/fb-3.jpg);
+  background-image: url(/images/pages/fb-3-sm.jpg);
   background-size: cover;
 }
 
