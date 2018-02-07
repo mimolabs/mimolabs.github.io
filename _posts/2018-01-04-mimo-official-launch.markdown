@@ -57,7 +57,7 @@ description: MIMO is officially live! Awesome splash pages and automated email c
         <div class="input-group" style="margin-top:40px;margin-bottom:40px;">
           <input class="input-group-field" name="email" type="text" placeholder="Enter your business email">
           <div class="input-group-button">
-            <input type="submit" id="submitButton" class="button" value="Submit">
+            <input type="submit" id="submitButton" class="button taggy-mc-tagpants" value="Submit">
           </div>
         </div>
       </div>
