@@ -29,6 +29,10 @@ h2, h3, h4, h5, h6 {
   color: rgba(39, 50, 56, 0.8);
 }
 
+h2 {
+  text-transform: capitalize;
+}
+
 p {
   font-size: 18px;
   line-height: 2rem;
