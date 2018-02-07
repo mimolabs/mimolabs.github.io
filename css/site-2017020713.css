@@ -409,6 +409,30 @@ footer :last-child > .accordion-content:last-child {
   /*background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);*/
 }
 
+.fb-1 {
+  position: relative;
+  background: white;
+  overflow: hidden;
+  background-image: url(/images/pages/fb-1.jpg);
+  background-size: cover;
+}
+
+.fb-2 {
+  position: relative;
+  background: white;
+  overflow: hidden;
+  background-image: url(/images/pages/fb-2.jpg);
+  background-size: cover;
+}
+
+.fb-3 {
+  position: relative;
+  background: white;
+  overflow: hidden;
+  background-image: url(/images/pages/fb-3.jpg);
+  background-size: cover;
+}
+
 .bg-top h1, .bg-top h2, .bg-top h3, .bg-top h4, .bg-top img, .bg-top a {
   z-index: 2;
   position: relative;
