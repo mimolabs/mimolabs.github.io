@@ -578,6 +578,14 @@ footer a:hover {
   border: none;
 }
 
+.signedup {
+  display: none;
+}
+
+.faqs {
+  margin-bottom: 40px;
+}
+
 /*Product*/
 
 .product-top {
@@ -684,17 +692,8 @@ footer a:hover {
   font-weight: bold
 }
 
-.signedup {
-  display: none;
-}
-
-.faqs {
+.about-mimo {
   margin-bottom: 40px;
-}
-
-img.mappy {
-  margin: 0px 0 100px 0;
-  max-width: 600px;
 }
 
 .about-mimo p {
