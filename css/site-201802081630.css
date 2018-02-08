@@ -699,13 +699,26 @@ img.mappy {
 
 /*facebook landing*/
 
-.fb-1 {
+.fb-1-hero {
   position: relative;
   background: white;
   overflow: hidden;
   background-image: url(/images/pages/fb-1-sm.jpg);
   background-size: cover;
   border-bottom: solid 1px #eceff1;
+}
+
+.fb-1-hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: rgba(255,255,255,0.9);
+  text-shadow: 0px 0px 3px rgba(0,0,0,0.6);
+}
+
+.fb-1 .bg-container {
+  position: relative;
+  background: white;
+  overflow: hidden;
 }
 
 .fb-2 {
@@ -733,29 +746,42 @@ img.mappy {
   text-shadow: 0px 0px 3px rgba(0,0,0,0.6);
 }
 
-
 .fb-3 .bg-container {
   position: relative;
   background: white;
   overflow: hidden;
 }
 
-.fb-3 .bg-container:before {
-  content: ' ';
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  /*opacity: 0.5;*/
-  background-image: url(/images/pages/mimo-bg.svg);
-  background-repeat: repeat;
-  background-position: center;
-  background-size: 250%;
-}
 @media screen and (max-width: 640px) {
+  .fb-1-hero {
+    position: relative;
+    background: white;
+    overflow: hidden;
+    background-image: url(/images/pages/fb-1-sm.jpg);
+    background-size: cover;
+    border-bottom: none;
+    background-image: linear-gradient(rgba(255,255,255,0) 0%,rgba(255,255,255,0) 80%,rgba(255,255,255,1) 100%), url(/images/pages/fb-1-sm.jpg);
+  }
+
+  .fb-1 .bg-container {
+    position: relative;
+    background: white;
+    overflow: hidden;
+  }
+
+  .fb-1 .bg-container:before {
+    background-image: none;
+  }
+
+  .fb-1-hero h1 {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(255,255,255,0.9);
+    text-shadow: 0px 0px 3px rgba(0,0,0,0.6);
+  }
+
   .fb-3-hero {
     position: relative;
     background: black;
@@ -763,7 +789,7 @@ img.mappy {
     background-image: url(/images/pages/fb-3-sm.jpg);
     background-size: cover;
     border-bottom: none;
-    background-image: linear-gradient(rgba(0,0,0,0) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,1) 100%), url(/images/pages/fb-3-sm.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0) 0%,rgba(0,0,0,0) 80%,rgba(0,0,0,1) 100%), url(/images/pages/fb-3-sm.jpg);
   }
 
   .fb-3 .bg-container {
@@ -773,19 +799,7 @@ img.mappy {
   }
 
   .fb-3 .bg-container:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    /*opacity: 0.5;*/
     background-image: none;
-    background-repeat: repeat;
-    background-position: center;
-    background-size: 250%;
   }
 
   .fb-3-hero h1 {
