@@ -306,10 +306,11 @@ body, html {
   width: 100%;
   height: 100%;
   z-index: 1;
-  opacity: 0.5;
+  /*opacity: 0.5;*/
   background-image: url(/images/pages/pill-pattern.svg);
   background-repeat: repeat;
-  background-size: 100%;
+  background-position: center;
+  background-size: 250%;
 }
 
 /*footer*/
@@ -402,10 +403,11 @@ footer :last-child > .accordion-content:last-child {
   width: 100%;
   height: 100%;
   z-index: 1;
-  opacity: 0.5;
+  /*opacity: 0.5;*/
   background-image: url(/images/pages/pill-pattern.svg);
   background-repeat: repeat;
-  background-size: 100%;
+  background-position: center;
+  background-size: 250%;
   /*background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);*/
 }
 
@@ -415,6 +417,7 @@ footer :last-child > .accordion-content:last-child {
   overflow: hidden;
   background-image: url(/images/pages/fb-1-sm.jpg);
   background-size: cover;
+  border-bottom: solid 1px #eceff1;
 }
 
 .fb-2 {
@@ -423,6 +426,7 @@ footer :last-child > .accordion-content:last-child {
   overflow: hidden;
   background-image: url(/images/pages/fb-2-sm.jpg);
   background-size: cover;
+  border-bottom: solid 1px #eceff1;
 }
 
 .fb-3 {
@@ -431,6 +435,7 @@ footer :last-child > .accordion-content:last-child {
   overflow: hidden;
   background-image: url(/images/pages/fb-3-sm.jpg);
   background-size: cover;
+  border-bottom: solid 1px #eceff1;
 }
 
 .bg-top h1, .bg-top h2, .bg-top h3, .bg-top h4, .bg-top img, .bg-top a {
@@ -831,5 +836,11 @@ img.mappy {
   .flat-card {
     padding-right: 30px;
     padding-left: 30px;
+  }
+  .fb-3 {
+    background-position: center;
+  }
+  .fb-1 {
+    background-position: center;
   }
 }
