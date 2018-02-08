@@ -115,7 +115,6 @@ body, html {
   font-size: 12px;
 }
 
-
 .menu.vertical > li {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -198,6 +197,8 @@ body, html {
 }
 
 .overlay h2 {
+  padding-bottom: 8px;
+  padding-top: 8px;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 20px;
@@ -500,10 +501,6 @@ footer a:hover {
   margin-bottom: 20px;
 }
 
-/*.plans-card-row > .row > .columns {
-  margin-top: 40px;
-}*/
-
 .plans-card-row > h2 {
   margin-bottom: 30px;
 }
@@ -570,6 +567,15 @@ footer a:hover {
   list-style-type: none;
   color: rgba(0,0,0, 0.54);
   padding-bottom: 10px;
+}
+
+.signup h2, .signedup h3 {
+  margin-top: 90px;
+}
+
+#engageModal {
+  outline: none;
+  border: none;
 }
 
 /*Product*/
@@ -814,9 +820,10 @@ img.mappy {
 }
 
 
-/*small*/
+/*mobile style*/
 
 @media screen and (max-width: 640px) {
+  /*home small*/
   .bg-top .button {
     margin-top: 40px;
   }
@@ -843,5 +850,44 @@ img.mappy {
   }
   .fb-1 {
     background-position: center;
+  }
+  /*plans small*/
+  .row.banner.plans-banner {
+    padding-top: 40px;
+  }
+  .plans-card-row>h2 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .plans-card {
+    margin-bottom: 20px;
+    height: 250px;
+    padding-top: 0px;
+  }
+  .plan-title h3 {
+    font-size: 28px;
+    margin-bottom: 0px;
+  }
+  .plan-title {
+    margin-bottom: 10px;
+  }
+  .plans-card .button {
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+    font-size: 0.8rem;
+  }
+  .signup h2, .signedup h3 {
+    margin-top: 40px;
+  }
+  #engageModal.reveal {
+    margin: auto;
+    top: 0;
+    left: 0;
+    width: 90%;
+    max-width: none;
+    height: fit-content;
+    min-height: fit-content;
+    border: 0;
+    border-radius: 8px;
   }
 }
