@@ -192,14 +192,17 @@ body, html {
   top: 0;
   left: 0;
   background-color: rgb(255,255,255);
-  background-color: rgba(255,255,255, 0.9);
+  background-color: rgba(255,255,255, 0.98);
   overflow-y: hidden;
   transition: 0.5s;
 }
 
 .overlay h2 {
+  margin-top: 20px;
   margin-bottom: 20px;
   font-size: 20px;
+  color: #1FAD5C;
+  font-weight: 600;
 }
 
 .overlay li {
@@ -213,10 +216,24 @@ body, html {
 
 .overlay-content {
   position: relative;
-  top: 6%;
   width: 100%;
-  text-align: center;
-  margin-top: 30px;
+  border-top: 1px solid #eceff1;
+}
+
+.overlay-content .columns {
+  border-bottom: 1px solid #eceff1;
+}
+
+.overlay-sub {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.overlay-sub h3 a {
+  color: #1FAD5C;
+  font-weight: 400;
 }
 
 .overlay a {
@@ -226,6 +243,7 @@ body, html {
   display: block;
   transition: 0.3s;
   color: #1FAD5C;
+  font-weight: 600;
 }
 
 .overlay .logo a {
