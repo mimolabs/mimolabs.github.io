@@ -758,6 +758,7 @@ img.mappy {
     background: white;
     overflow: hidden;
     background-image: url(/images/pages/fb-1-sm.jpg);
+    background-position: center;
     background-size: cover;
     border-bottom: none;
     background-image: linear-gradient(rgba(255,255,255,0) 0%,rgba(255,255,255,0) 80%,rgba(255,255,255,1) 100%), url(/images/pages/fb-1-sm.jpg);
