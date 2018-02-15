@@ -15,9 +15,8 @@ So you've got yourself some WiFi but what does it actually do for your business?
 
 <div class="blog-image">
   <img src='/images/posts/engagement-1.jpg'>
+  <p style="color: #ddd; font-size: 12px;">Photo: Apricot Tree Wedding Photography</p>
 </div>
-
-WiFi's pretty popular these days. Maybe your cafe, bar, hotel or chop house has some Free WiFi goodness. What's your WiFi doing for you?
 
 Here's a few inside tips to make your WiFi work for you. You can read the results of a survey we recently conducted in a forthcoming article.
 
