@@ -77,7 +77,7 @@ The customers you really want are the ones that really want to engage.
 
 ## Respect
 
-Some people just don't want to engage with you. That's business (and life). Let them unsubscribe. Simple as that.
+Some people just don't want to engage with you. That's business (and life). Let them unsubscribe. Simple as that. With MIMO, we go a step further and automatically clean your lists of junk emails.
 
 ## Is MIMO a fit for your Business?
 
