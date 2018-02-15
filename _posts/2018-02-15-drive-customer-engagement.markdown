@@ -16,22 +16,6 @@ description: MIMO is officially live! Awesome splash pages and automated email c
   </div>
 </div>
 
-<div class="row align-center">
-  <div class="large-10 columns">
-    <h2>Driving Customer Engagement - Boost Your Sales</h2>
+## Heading
 
-    <p>Piece of cake, enter your business email below to start your <b>14 day free trial</b> today!</p>
-
-    <div class="row align-middle align-center text-center">
-      <div class="large-6 medium-8 small-12 columns signup">
-        <div class="input-group" style="margin-top:40px;margin-bottom:40px;">
-          <input class="input-group-field" name="email" type="text" placeholder="Enter your business email">
-          <div class="input-group-button">
-            <input type="submit" id="submitButton" class="button taggy-mc-tagpants" value="Submit">
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
+Body text, something here.
