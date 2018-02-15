@@ -11,7 +11,7 @@ description: Boost sales and drive engagement with your splash pages.
 ---
 # Using WiFi to Drive Engagement
 
-So you've got yourself some WiFi but what does it actually do for your business? We've compiled a few tips and tricks to help you get more out of your WiFi. Your WiFi should work for you, not just your customers.
+So you've got yourself some WiFi but what does it actually do for your business? We've compiled a few tips and tricks to help you get more out of your WiFi. <b>Your WiFi should work for you, not just your customers</b>.
 
 <div class="blog-image">
   <img src='/images/posts/engagement-1.jpg'>
