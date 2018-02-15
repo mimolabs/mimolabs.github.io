@@ -465,9 +465,9 @@ footer a:hover {
   margin-bottom: 80px;
 }
 
-.flat-card img {
-  max-height: 300px;
-}
+/* .flat-card img { */
+/*   max-height: 300px; */
+/* } */
 
 .banner > .large-12 > div > img {
   max-width: 1000px;
