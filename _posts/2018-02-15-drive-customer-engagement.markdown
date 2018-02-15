@@ -13,7 +13,9 @@ description: Boost sales and drive engagement with your splash pages.
 
 We've compiled a few tips and tricks to help you get more out of your WiFi.
 
-![Drive Engagement](/images/posts/engagement-1.jpg)
+<div class="blog-image">
+  <img src='/images/posts/engagement-1.jpg'>
+</div>
 
 WiFi's pretty popular these days. Maybe your cafe, bar, hotel or chop house has some Free WiFi goodness. What's your WiFi doing for you?
 
@@ -23,9 +25,11 @@ Here's a few inside tips to make your WiFi work for you. You can read the result
 
 No it's not. **Most people trust free public WiFi more when there's a splash page**. Particularly when it's pretty (and better still, branded).
 
-![Image of Cafe Splash Page](/images/posts/branded-splash-1.png)
+<div class="blog-image">
+  <img src='/images/posts/branded-splash-1.png'>
+</div>
 
-A handsome splash page makes a **big difference**. First impressions count right? It's not so hard to create a pretty one these days.
+A handsome splash page makes a **big difference**. First impressions count right? It's not so hard to create a pretty one these days (with MIMO of course).
 
 ## Don't ask, don't get
 
@@ -51,7 +55,7 @@ In the above experiment, we offered each user a free coffee if they entered thei
 
 ## Careful Targeting
 
-So, it's easy to create a handsome splash page in a flash. It's also possible to capture good quality emails. And, it's possible to automatically add these emails to a list, like MailChimp or Campaign Monitor.
+So, it's easy to create a handsome splash page in a flash. It's also possible to capture good quality emails. And, it's possible to automatically add these emails to a list, like MailChimp or Campaign Monitor (also with MIMO)!
 
 If you're going to capture emails from a splash page, make sure you put them in their very own list. Don't just add them to one massive list.
 
