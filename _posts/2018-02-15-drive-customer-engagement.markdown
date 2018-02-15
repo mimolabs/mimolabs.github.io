@@ -15,15 +15,13 @@ We've compiled a few tips and tricks to help you get more out of your WiFi.
 
 ![Drive Engagement](/images/posts/engagement-1.jpg)
 
-WiFi's pretty popular these days. Maybe your cafe, bar, hotel or chop house has some Free WiFi goodness.
-
-But what's your WiFi actually doing for you? Most of the time it works fine. Sometimes it goes wrong. People complain. You worry about illegal downloaders and worse, free loaders. But you've got to have it. It's a must.
+WiFi's pretty popular these days. Maybe your cafe, bar, hotel or chop house has some Free WiFi goodness. What's your WiFi doing for you?
 
 Here's a few inside tips to make your WiFi work for you. You can read the results of a survey we recently conducted in a forthcoming article.
 
 ## It's only a splash page...
 
-No it's not. Most people trust free public WiFi more when there's a splash page. Particularly when it's pretty (and better still, branded).
+No it's not. **Most people trust free public WiFi more when there's a splash page**. Particularly when it's pretty (and better still, branded).
 
 ![Image of Cafe Splash Page](/images/posts/branded-splash-1.png)
 
@@ -31,12 +29,12 @@ A handsome splash page makes a **big difference**. First impressions count right
 
 ## Don't ask, don't get
 
-Can you capture good quality data via a splash page? TLDR; People don't actually mind entering their email!
+Can you actually capture good quality data via a splash page? Surely people will enter nonsense?!
 
-We recently ran an experiment to measure the quality of the data captured via a splash page. We ran the tests in 20 locations, evenly split:
+We ran an experiment to measure the quality of the data captured via a splash page. We ran the tests in 20 locations, evenly split between:
 
-- Group A used a registration login with name, age, location and email.
-- Group B used a simple splash with just email capture (like the one above).
+- Group A - used a registration login with name, age, location and email.
+- Group B - used a simple splash with just email capture (like the one above).
 
 **The results are in.....**
 
@@ -77,3 +75,9 @@ The customers you really want are the ones that really want to engage.
 ## Respect
 
 Some people just don't want to engage with you. That's business (and life). Let them unsubscribe. Simple as that.
+
+## Is MIMO a fit for your Business?
+
+Find out whether MIMO could work for your business. You can read more about all the <a href="/">MIMO features here</a>. You can try MIMO for free and it works with all your fave WiFi devices!
+
+<a class="button register-button" href="/join">Register Now</a>
