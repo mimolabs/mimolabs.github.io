@@ -1,7 +1,7 @@
 $(document).foundation();
 
 $(document).ready(function() {
-  $(".invisible-man").show()
+  $(".invisible-man").show();
 });
 
 $(window).scroll(function() {
@@ -42,6 +42,7 @@ $('input#submitButton').click( function() {
         $('.signedup').show();
       }
     });
+    fbq('track', 'Lead');
   }
 });
 
