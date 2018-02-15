@@ -18,4 +18,4 @@ description: MIMO is officially live! Awesome splash pages and automated email c
 
 ## Using WiFi to Drive Engagement
 
-WiFi's pretty popular these days. Most probably you cafe, bar, hotel and chipshop has some now.
+WiFi's pretty popular these days. Most probably your cafe, bar, hotel and chipshop has some now.
