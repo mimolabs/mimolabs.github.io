@@ -149,8 +149,8 @@ $('.engage').on('click', function() {
   $('#engageModal').foundation('open');
 });
 
-drift.on('ready',function(api){
-  $('.contact').click( function() {
-    api.goToNewConversation();
-  });
-});
+// drift.on('ready',function(api){
+//   $('.contact').click( function() {
+//     api.goToNewConversation();
+//   });
+// });
