@@ -465,9 +465,18 @@ footer a:hover {
   margin-bottom: 80px;
 }
 
-.flat-card img {
-  max-height: 300px;
+.blog img {
+  max-height: 500px;
 }
+
+.blog-image {
+  text-align: center;
+  margin: 40px;
+}
+
+/* .flat-card img { */
+/*   max-height: 300px; */
+/* } */
 
 .banner > .large-12 > div > img {
   max-width: 1000px;

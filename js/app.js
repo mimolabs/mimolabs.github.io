@@ -1,7 +1,7 @@
 $(document).foundation();
 
 $(document).ready(function() {
-  $(".invisible-man").show()
+  $(".invisible-man").show();
 });
 
 $(window).scroll(function() {
@@ -29,6 +29,12 @@ function isEmail(email) {
   return regex.test(email);
 }
 
+$('a.register-button').click( function() {
+  // alert(123);
+  // fbq('track', 'Lead');
+  // not sure we want to yet
+});
+
 $('input#submitButton').click( function() {
   var email = $('input[name="email"]').val();
   if (email && isEmail(email)) {
@@ -42,6 +48,7 @@ $('input#submitButton').click( function() {
         $('.signedup').show();
       }
     });
+    fbq('track', 'Lead');
   }
 });
 
