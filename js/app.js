@@ -151,5 +151,6 @@ $('.engage').on('click', function() {
 
 // drift.on('ready',function(api){
 $('.contact').click( function() {
+  Intercom('show');
 });
 // });
