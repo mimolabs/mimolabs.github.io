@@ -827,6 +827,97 @@ footer a:hover {
   }
 }
 
+.unifi-banner img, .openmesh-banner img, .ruckus-banner img {
+  height: 450px;
+  width: auto;
+  max-height: 600px;
+  max-width: 1000px;
+}
+
+.meraki-banner img {
+  margin-left: -500px;
+  height: 450px;
+  width: auto;
+  max-height: 600px;
+  max-width: 1000px;
+}
+
+.meraki-banner.bg-top:before {
+  background-image: linear-gradient(45deg,#fff 50%,#e6e6e6 100%);
+}
+
+.meraki-banner .button {
+  background: #67b346;
+}
+
+.meraki-banner .button:hover {
+  background: #5CA03E;
+}
+
+.meraki-banner h1 {;
+  color: #67b346
+}
+
+.unifi-banner.bg-top:before {
+  background-image: linear-gradient(45deg,#24252a 0%,#424347 100%);
+}
+
+.unifi-banner h1, .unifi-banner h4 {
+  color: rgba(255,255,255,0.9);
+}
+
+.unifi-banner .button {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.9);
+}
+
+.unifi-banner .button:hover {
+  background: #424347;
+  border: 1px solid rgba(255,255,255,0.9);
+}
+
+.openmesh-banner.bg-top:before {
+  background-image: none;
+  background-color: #00af41;
+}
+
+.openmesh-banner .button {
+  background: #f6d93c;
+  color: rgba(0,0,0,0.9);
+}
+
+.openmesh-banner .button:hover {
+  background: #f6d93c;
+  color: rgba(0,0,0,0.9);
+  -ms-filter: brightness(120%);
+  filter: brightness(120%);
+}
+
+.openmesh-banner h1, .openmesh-banner h4 {
+  color: rgba(255,255,255,0.9);
+}
+
+.ruckus-banner.bg-top:before {
+  background-image: linear-gradient(45deg,#0c0c0e 0%,#2a2a2d 100%);
+}
+
+.ruckus-banner h1 {
+  color: #e87424;
+}
+
+.ruckus-banner h4 {
+  color: rgba(255,255,255,0.9);
+}
+
+.ruckus-banner .button {
+  background: #e87424;
+  border: 1px solid #c75e15;
+}
+
+.ruckus-banner .button:hover {
+  background: #c75e15;
+  border: 1px solid #c75e15;
+}
 
 /*mobile style*/
 
