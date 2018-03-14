@@ -462,8 +462,9 @@ footer a:hover {
 /*Home Page*/
 .bg-top {
   position: relative;
-  /*background: white;*/
+  background: #ebf8fb;
   overflow: hidden;
+  padding: 80px 0;
 }
 
 .bg-top:before {
