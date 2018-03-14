@@ -685,6 +685,12 @@ footer a:hover {
   height: 550px;
 }
 
+@media screen and (max-width: 640px) {
+  .product-top {
+    height: 400px;
+  }
+}
+
 .integrations-logos img {
   max-height: 50px;
 }
