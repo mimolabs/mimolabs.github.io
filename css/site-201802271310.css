@@ -9,6 +9,11 @@
   min-height: 400px;
 }
 
+.integrations-logos img {
+  border: none!important;
+  box-shadow: none!important;
+}
+
 .splash-examples img.img-1, .splash-examples img.img-2, .splash-examples img.img-3 {
   max-height: 300px;
   border: none;
@@ -55,6 +60,25 @@
   z-index: 42;
   max-height: 300px;
 }
+
+.reports-examples img.img-1 {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  left: calc(55% - 50px);
+  z-index: 43;
+  max-height: 300px;
+}
+
+.reports-examples img.img-2 {
+  position: absolute;
+  top: 52%;
+  transform: translateY(-50%);
+  left: calc(55% - 0px);
+  z-index: 42;
+  max-height: 300px;
+}
+
 
 .page-content {
   background-image: linear-gradient(120deg, #ffffff 50%, #fdfbfb 100%);
