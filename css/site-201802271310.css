@@ -682,12 +682,12 @@ footer a:hover {
   background-image: url('/images/pages/product-banner.jpg');
   background-size: cover;
   background-position: center;
-  height: 550px;
+  height: 400px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 1200px) {
   .product-top {
-    height: 400px;
+    height: 600px;
   }
 }
 
