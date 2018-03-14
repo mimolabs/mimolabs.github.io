@@ -1,3 +1,73 @@
+/*revamp*/
+
+.splash-examples, .engage-examples {
+  position: relative;
+  min-height: 400px;
+}
+
+.splash-examples img.img-1, .splash-examples img.img-2, .splash-examples img.img-3 {
+  max-height: 300px;
+  border: none;
+}
+
+.splash-examples img.img-1 {
+  position: absolute;
+  top: 52%;
+  transform: translateY(-50%);
+  left: 65%;
+  z-index: 43;
+}
+
+.splash-examples img.img-2 {
+  position: absolute;
+  top: 47%;
+  transform: translateY(-50%);
+  left: calc(65% - 120px);
+  z-index: 42;
+}
+
+.splash-examples img.img-3 {
+  position: absolute;
+  top: 47%;
+  transform: translateY(-50%);
+  left: calc(65% + 120px);
+  z-index: 42;
+}
+
+.engage-examples img.img-1 {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  left: calc(55% - 50px);
+  z-index: 43;
+  max-height: 300px;
+}
+
+.engage-examples img.img-2 {
+  position: absolute;
+  top: 52%;
+  transform: translateY(-50%);
+  left: calc(55% - 0px);
+  z-index: 42;
+  max-height: 300px;
+}
+
+.page-content {
+  background-image: linear-gradient(120deg, #ffffff 50%, #fdfbfb 100%);
+}
+
+.flat-card img {
+  border: solid 1px #ECEFF1;
+  border-radius: 4px;
+  box-shadow: 0 5px 40px rgba(0,0,0,0.10);
+  transition: 0.2s ease-in-out;
+}
+
+.flat-card img:hover {
+  box-shadow: 0 5px 40px rgba(0,0,0,0.20);
+}
+
+
 /*body*/
 
 .invisible-man {
@@ -312,7 +382,7 @@ body, html {
 
 .bg-container {
   position: relative;
-  background: white;
+  /*background: white;*/
   overflow: hidden;
 }
 
@@ -383,7 +453,7 @@ footer a:hover {
 /*Home Page*/
 .bg-top {
   position: relative;
-  background: white;
+  /*background: white;*/
   overflow: hidden;
 }
 
@@ -458,8 +528,8 @@ footer a:hover {
 .flat-card {
   z-index: 2;
   position: relative;
-  background-color: white;
-  border: solid 1px #ECEFF1;
+  /*background-color: white;*/
+  /*border: solid 1px #ECEFF1;*/
   border-radius: 15px;
   padding: 50px;
   margin-bottom: 80px;
@@ -598,7 +668,7 @@ footer a:hover {
 /*Product*/
 
 .product-top {
-  border-bottom: solid 1px #ECEFF1;
+  /*border-bottom: solid 1px #ECEFF1;*/
 }
 
 .integrations-logos img {
