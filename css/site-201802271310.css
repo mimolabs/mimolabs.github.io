@@ -464,7 +464,13 @@ footer a:hover {
   position: relative;
   background: #ebf8fb;
   overflow: hidden;
-  padding: 80px 0;
+  padding: 0px;
+}
+
+@media screen and (min-height: 800px) and (min-width: 1200px) {
+  .bg-top {
+    padding: 80px 0px;
+  }
 }
 
 .bg-top:before {
