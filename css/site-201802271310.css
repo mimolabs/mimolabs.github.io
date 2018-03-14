@@ -4,6 +4,11 @@
   -webkit-font-smoothing: antialiased;
 }
 
+.signup-banner {
+  background: green;
+  padding: 0px!important;
+}
+
 .splash-examples, .engage-examples {
   position: relative;
   min-height: 400px;
