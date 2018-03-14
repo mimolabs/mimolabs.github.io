@@ -1,4 +1,6 @@
-/*body*/
+* {
+  -webkit-font-smoothing: antialiased;
+}
 
 .invisible-man {
   display: none;
@@ -19,6 +21,7 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
 }
 
 h1 {
@@ -33,9 +36,14 @@ h1, h2 {
   text-transform: capitalize;
 }
 
+h1 {
+    line-height: 1.2;
+}
+
 p {
   font-size: 18px;
-  line-height: 2rem;
+  line-height: 32px;
+  font-weight: 100;
 }
 
 p small {
@@ -48,7 +56,7 @@ p small {
 
 body, html {
   font-family: 'Source Sans Pro', sans-serif;
-  color: rgba(13, 54, 80, 0.8);
+  color: rgba(71, 82, 93, 0.8);
 }
 
 .text-center ul {
