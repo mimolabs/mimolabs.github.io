@@ -678,6 +678,10 @@ footer a:hover {
 
 .product-top {
   /*border-bottom: solid 1px #ECEFF1;*/
+  background-image: url('/images/pages/product-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
 }
 
 .integrations-logos img {
