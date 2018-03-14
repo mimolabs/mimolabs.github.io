@@ -5,8 +5,11 @@
 }
 
 .signup-banner {
-  background: green;
-  padding: 0px!important;
+  background: #ecf8fb;
+}
+
+.signup-banner .row.banner {
+  padding: 0px;
 }
 
 .splash-examples, .engage-examples {
