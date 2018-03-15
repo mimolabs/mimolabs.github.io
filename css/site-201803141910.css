@@ -445,14 +445,8 @@ body, html {
 
 /*footer*/
 
-@media screen and (min-width: 1024px) {
-  footer {
-    padding-right: 90px!important;
-  }
-}
-
 footer {
-  padding: 20px 20px 20px 20px;
+  padding: 80px 0px;
   background-color: white;
   color: rgba(39, 50, 56, 0.9);
   border-top: solid 1px #ECEFF1;
@@ -460,19 +454,27 @@ footer {
   box-shadow: 0px 1000px 0px 1000px #0188bb;
 }
 
+footer .row {
+  max-width: 62.5rem;
+}
+
 footer a {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.8);
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 footer a:hover {
-  color: rgba(136, 196, 222, 0.9);
+  color: rgba(255, 255, 255, 1);
   -webkit-transition: color 0.1s ease-out;
   -moz-transition: color 0.1s ease-out;
   -o-transition: color 0.1s ease-out;
   transition: color 0.1s ease-out;
+}
+
+footer h4 {
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .social-button {
@@ -486,9 +488,17 @@ footer a:hover {
 }
 
 .footer-copyright {
-  color: #cbcbcb;
+  color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   padding-top: 1rem;
+}
+
+footer ul {
+  margin-left: 0px;
+}
+
+footer ul li {
+  list-style-type: none;
 }
 
 /*Home Page*/
