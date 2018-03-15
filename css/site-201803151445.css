@@ -465,7 +465,7 @@ footer a {
   margin-bottom: 10px;
 }
 
-footer a:hover {
+footer a:hover, footer a:focus, footer a:active {
   color: rgba(255, 255, 255, 1);
   -webkit-transition: color 0.1s ease-out;
   -moz-transition: color 0.1s ease-out;
