@@ -53,7 +53,7 @@
 
 .engage-examples img.img-1 {
   position: absolute;
-  top: 60%;
+  top: 62%;
   transform: translateY(-50%);
   left: calc(55% - 50px);
   z-index: 43;
@@ -66,6 +66,15 @@
   transform: translateY(-50%);
   left: calc(55% - 0px);
   z-index: 42;
+  max-height: 300px;
+}
+
+.engage-examples img.img-3 {
+  position: absolute;
+  top: 62%;
+  transform: translateY(-50%);
+  left: calc(55% + 450px);
+  z-index: 43;
   max-height: 300px;
 }
 
