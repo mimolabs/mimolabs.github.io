@@ -29,7 +29,7 @@ GEM
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
-    jekyll-seo-tag (2.4.0)
+    jekyll-sitemap (1.2.0)
       jekyll (~> 3.3)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
@@ -67,9 +67,9 @@ DEPENDENCIES
   jekyll
   jekyll-minifier
   jekyll-redirect-from
-  jekyll-seo-tag
+  jekyll-sitemap
   puma
   rack-jekyll
 
 BUNDLED WITH
-   1.14.6
+   1.16.1

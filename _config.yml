@@ -11,7 +11,7 @@ github_username:  mimolabs
 # Build settings
 markdown: kramdown
 
-gems: ['kramdown', 'jekyll-redirect-from']
+gems: ['kramdown', 'jekyll-redirect-from', 'jekyll-sitemap']
 # , 'jekyll-minifier', 'jekyll-seo-tag']
 
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
