@@ -44,8 +44,9 @@ $('input#submitButton').click( function() {
       dataType: 'json',
       data: { email: email },
       success: function(data) {
-        $('.signup').hide();
-        $('.signedup').show();
+        window.location.href = "/signed-up";
+        // $('.signup').hide();
+        // $('.signedup').show();
       }
     });
     fbq('track', 'Lead');
