@@ -22,6 +22,7 @@
       <ul>
         <li><a href="/blog">Blog</a></li>
         <li><a href="/about">About</a></li>
+        <li><a href="/terms">Terms</a></li>
       </ul>
     </div>
     <div class="small-6 medium-3 large-expand">
@@ -39,3 +40,24 @@
     </div>
   </div>
 </footer>
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "content": {
+    "dismiss": "I'm happy",
+    "message": "We use cookies on this site. Please confirm you're happy or find out how to manage your cookies.",
+    "href": "https://oh-mimo.com/terms/cookies"
+  }
+})});
+</script>
