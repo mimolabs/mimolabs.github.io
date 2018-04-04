@@ -602,6 +602,15 @@ footer ul li {
   margin-bottom: 80px;
 }
 
+.blog-card {
+  z-index: 2;
+  position: relative;
+  border-radius: 15px;
+  padding: 50px;
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+
 .blog img {
   max-height: 500px;
 }

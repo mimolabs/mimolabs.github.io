@@ -7,7 +7,7 @@ permalink: /blog/
 
 <div class="page-content">
 
-  <div class="row align-center banner" style="border-bottom: 1px solid rgb(236, 239, 241)">
+  <div class="row align-center banner bg-top">
     <div class="large-12 columns text-center">
       <h1>MIMO Blog</h1>
       <h3 class="sub-title">Keep up-to-date with the latest updates and posts from the MIMO team!</h3>
@@ -19,7 +19,7 @@ permalink: /blog/
     <div class="row banner align-center">
       <div class="large-11 medium-11 small-11 columns">
         {% for post in site.categories.blog %}
-        <div class="row align-middle flat-card">
+        <div class="row align-middle blog-card">
           <div class="large-12 medium-12 small-12 columns text-center">
 
             <li style="list-style:none;">
@@ -31,6 +31,7 @@ permalink: /blog/
             </li>
           </div>
         </div>
+        <hr>
         {% endfor %}
       </div>
     </div>

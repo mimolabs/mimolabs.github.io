@@ -1,0 +1,31 @@
+---
+layout: blog-post
+title: SMS OTP Logins
+date:   2018-04-03
+categories: blog
+published: true
+#thumbnail: /images/logo/mimo-name.svg
+permalink: /blog/sms-otp-logins.html
+keywords: WiFi splash pages and email capture for cafes, hotels and small businesses. Meraki splash page. Ruckus splash. UniFi splash. Ubiquiti splash. OTP logins. SMS logins.
+description: Enable SMS logins on your splash page and have your guests log in using OTP.
+---
+# SMS OTP Logins
+
+You can now allow your guests to login through your splash page using SMS OTP!
+
+<div class="blog-image">
+  <img src='/images/posts/sms-login.gif'>
+  <p style="color: #ddd; font-size: 12px;">How to enable SMS logins</p>
+</div>
+
+Enabling SMS OTP logins is as simple as heading into the new splash editor, and ticking the SMS box under login types! There's no need to worry about having to set up your own SMS service, we handle all of that for you.
+
+Guests simply tap the SMS button, provide their phone number, and are then sent a one time password that they can use to log in. Quick and easy, just as it should be.
+
+Please be aware that SMS usage is charged seperately to your subscribed plan. <a href="https://docs.oh-mimo.com/splash-pages/sms-messages-otp" target="_blank">See here for more information.</a>
+
+<hr>
+
+Find out whether MIMO could work for your business. You can read more about all the <a href="/product/">MIMO features here</a>. You can try MIMO for free and it works with all your fave WiFi devices!
+
+<a class="button register-button" href="/join">Register Now</a>
