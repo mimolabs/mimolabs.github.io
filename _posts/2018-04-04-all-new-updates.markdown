@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: All-New Features and Updates
+title: All-New Features and Updates | April '18
 date:   2018-04-04
 categories: blog
 published: true
