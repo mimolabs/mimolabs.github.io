@@ -11,7 +11,7 @@ description: It's been a busy couple months - Here's a roundup of the biggest ch
 ---
 # All-New Features and Updates
 
-We've been extremely busy here at MIMO. Over the last couple months we've pumped out lots of new content and updates to the platform. We thought we'd give you a rundown on some of the biggest things you might have missed!
+We've been eggstremely busy here at MIMO. Over the last couple of months we've pumped out lots of new content and updates to the platform. Here's a rundown on some of the biggest things you might have missed!
 
 ## SMS OTP Logins and SMS Campaigns
 
