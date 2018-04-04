@@ -13,23 +13,6 @@ description: It's been a busy couple months - Here's a roundup of the biggest ch
 
 We've been extremely busy here at MIMO. Over the last couple months we've pumped out lots of new content and updates to the platform. We thought we'd give you a rundown on some of the biggest things you might have missed!
 
-## Splash Designer Redesigned
-
-<div class="blog-image">
-  <img src='https://d247kqobagyqjh.cloudfront.net/api/file/INtAWfDZTUBjXy4QFIAx'>
-  <p style="color: #ddd; font-size: 12px;">The New Designer In Motion</p>
-</div>
-
-We've overhauled our splash designer to make things even easier for you guys to set up a beautiful splash page that captures the data you want. You can now configure your social settings alongside your style options. <a href="/blog/splash-designer-redesigned.html">You can read more about it here.</a>
-
-## Splash Popup Advertisement
-
-<div class="blog-image">
-  <img src='/images/posts/splash-popup.png' style="border: none;box-shadow: none;">
-</div>
-
-Ever wanted to advertise to your guests? Of course you have! With the new splash popup advert you can display an image popup to your guests when they connect. <a href="/blog/splash-page-advertisements.html">You can read more about it here.</a>
-
 ## SMS OTP Logins and SMS Campaigns
 
 <div class="blog-image">
@@ -39,6 +22,23 @@ Ever wanted to advertise to your guests? Of course you have! With the new splash
 Yup! You can now give your guests to option to log into your splash page via SMS and OTP logins. <a href="/blog/sms-otp-logins.html">You can read more SMS logins it here.</a>
 
 You can also now create highly targeted campaigns that send personalised SMS messages to your customers - helping to boost loyalty and customer engagement. <a href="/blog/sms-campaigns.html">You can read more about SMS campaigns here.</a>
+
+## Splash Popup Advertisement
+
+<div class="blog-image">
+  <img src='/images/posts/splash-popup.png' style="border: none;box-shadow: none;">
+</div>
+
+Ever wanted to advertise to your guests? Of course you have! With the new splash popup advert you can display an image popup to your guests when they connect. <a href="/blog/splash-page-advertisements.html">You can read more about it here.</a>
+
+## Splash Designer Redesigned
+
+<div class="blog-image">
+  <img src='https://d247kqobagyqjh.cloudfront.net/api/file/INtAWfDZTUBjXy4QFIAx'>
+  <p style="color: #ddd; font-size: 12px;">The New Designer In Motion</p>
+</div>
+
+We've overhauled our splash designer to make things even easier for you guys to set up a beautiful splash page that captures the data you want. You can now configure your social settings alongside your style options. <a href="/blog/splash-designer-redesigned.html">You can read more about it here.</a>
 
 <hr>
 
