@@ -14,7 +14,7 @@ description: Enable SMS logins on your splash page and have your guests log in u
 You can now allow your guests to login through your splash page using SMS OTP!
 
 <div class="blog-image">
-  <img src='/images/posts/sms-login.gif'>
+  <img src='https://d247kqobagyqjh.cloudfront.net/api/file/O9dwKBN9Qom8gr71Gg9M'>
   <p style="color: #ddd; font-size: 12px;">How to enable SMS logins</p>
 </div>
 
@@ -22,7 +22,7 @@ Enabling SMS OTP logins is as simple as heading into the new splash editor, and 
 
 Guests simply tap the SMS button, provide their phone number, and are then sent a one time password that they can use to log in. Quick and easy, just as it should be.
 
-Please be aware that SMS usage is charged seperately to your subscribed plan. <a href="https://docs.oh-mimo.com/splash-pages/sms-messages-otp" target="_blank">See here for more information.</a>
+Please be aware that SMS usage is charged separately to your subscribed plan. <a href="https://docs.oh-mimo.com/splash-pages/sms-messages-otp" target="_blank">See here for more information.</a>
 
 <hr>
 

@@ -14,7 +14,7 @@ description: Your Social Login settings and Splash Designer settings now in one 
 In our continued effort to make MIMO as simple and effective as possible for all of you, we've consolidated our Social Login settings and Splash Designer into a new WYSIWYG splash editor.
 
 <div class="blog-image">
-  <img src='/images/posts/splash-designer.gif'>
+  <img src='https://d247kqobagyqjh.cloudfront.net/api/file/INtAWfDZTUBjXy4QFIAx'>
   <p style="color: #ddd; font-size: 12px;">The New Designer In Motion</p>
 </div>
 

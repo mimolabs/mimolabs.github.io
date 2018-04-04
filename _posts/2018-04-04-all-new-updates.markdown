@@ -16,7 +16,7 @@ We've been extremely busy here at MIMO. Over the last couple months we've pumped
 ## Splash Designer Redesigned
 
 <div class="blog-image">
-  <img src='/images/posts/splash-designer.gif'>
+  <img src='https://d247kqobagyqjh.cloudfront.net/api/file/INtAWfDZTUBjXy4QFIAx'>
   <p style="color: #ddd; font-size: 12px;">The New Designer In Motion</p>
 </div>
 

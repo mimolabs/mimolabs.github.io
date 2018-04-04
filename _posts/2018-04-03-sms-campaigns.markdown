@@ -22,7 +22,7 @@ We'll go into how to create great campaigns in a later blog, but to get going yo
 Setting up an SMS campaign requires you to configure an SMS sender, which is a lot easier than it sounds!
 
 <div class="blog-image">
-  <img src='/images/posts/sms-sender.gif'>
+  <img src='https://d247kqobagyqjh.cloudfront.net/api/file/0kE4ptb9RBuGvquHcwAw'>
   <p style="color: #ddd; font-size: 12px;">How to create an SMS sender</p>
 </div>
 
@@ -35,7 +35,7 @@ Your sender will automatically be assigned a phone number, so you don't need to 
 Once you have your SMS sender configured, you just need to head back over to your campaign page and create yourself a campaign.
 
 <div class="blog-image">
-  <img src='/images/posts/sms-campaign.gif'>
+  <img src='https://d247kqobagyqjh.cloudfront.net/api/file/oBWB3BnlT0KLPaQRM0fw'>
   <p style="color: #ddd; font-size: 12px;">How to create an SMS campaign</p>
 </div>
 
@@ -43,7 +43,7 @@ Just like the SMS Sender, give your campaign any name you want, and then select 
 
 From there you can configure all of the other specifics of your campaign (We'll make a post on all these options soon).
 
-Please be aware that SMS usage is charged seperately to your subscribed plan. <a href="https://docs.oh-mimo.com/splash-pages/sms-messages-otp" target="_blank">See here for more information.</a>
+Please be aware that SMS usage is charged separately to your subscribed plan. <a href="https://docs.oh-mimo.com/splash-pages/sms-messages-otp" target="_blank">See here for more information.</a>
 
 <hr>
 

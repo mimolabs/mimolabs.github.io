@@ -14,7 +14,7 @@ description: Make the most of your splash page with our new advert popup.
 Our brand new splash page popup advertisement allows you to display an image to a guest before they log in. Now you can show an advert before they log in (with the popup advert) and/or after they log in (with our splash welcome page)!
 
 <div class="blog-image">
-  <img src='/images/posts/splash-adverts.gif'>
+  <img src='https://d247kqobagyqjh.cloudfront.net/api/file/3UKiYICTb22yHT9d8tVM'>
   <p style="color: #ddd; font-size: 12px;">How to access the advertisement options</p>
 </div>
 
