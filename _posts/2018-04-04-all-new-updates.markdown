@@ -5,7 +5,7 @@ date:   2018-04-04
 categories: blog
 published: true
 #thumbnail: /images/logo/mimo-name.svg
-permalink: /blog/splash-designer-redesigned.html
+permalink: /blog/all-new-updates.html
 keywords: WiFi splash pages and email capture for cafes, hotels and small businesses. Meraki splash page. Ruckus splash. UniFi splash. Ubiquiti splash. WYSIWYG. Splash design.
 description: It's been a busy couple months - Here's a roundup of the biggest changes we've made and features we've released!
 ---
