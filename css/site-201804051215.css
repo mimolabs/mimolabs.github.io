@@ -618,13 +618,31 @@ footer ul li {
   margin-bottom: 80px;
 }
 
+.blog-post h1 {
+  font-size: 42px;
+}
+
+.blog-post h3 {
+  font-size: 27px;
+}
+
+.blog-post h1 {
+  margin: 38px 0 22px 0;
+}
+
+.blog-post h1, h2, h3, h4 {
+  margin: 36px 0 20px 0;
+}
+
 .blog-post p {
-  line-height: 26px;
+  font-size: 1.3rem;
+  line-height: 42px;
 }
 
 .blog-post li {
-  font-size: 18px;
-  margin-left: 20px;
+  font-size: 1.3rem;
+  margin-left: 0px;
+  line-height: 42px;
 }
 
 .blog-quote {
