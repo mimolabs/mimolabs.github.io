@@ -611,6 +611,31 @@ footer ul li {
   margin-top: 40px;
 }
 
+.blog-post {
+  z-index: 2;
+  position: relative;
+  padding: 50px 20px;
+  margin-bottom: 80px;
+}
+
+.blog-post p {
+  line-height: 26px;
+}
+
+.blog-post li {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.blog-quote {
+  margin:20px;
+  font-style:italic;
+}
+
+.blog-quote p {
+  font-size: 16px;
+}
+
 .blog img {
   max-height: 500px;
 }

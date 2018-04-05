@@ -10,7 +10,7 @@ description: MIMO is officially live! Awesome splash pages and automated email c
 ---
 <div class="row align-center">
   <div class="large-10 columns text-center banner">
-    <img style="max-height:150px;" src="/images/logo/mimo-name.svg"/>
+    <img style="max-height:150px;box-shadow:none;border:none;" src="/images/logo/mimo-name.svg"/>
   </div>
 </div>
 
