@@ -786,8 +786,14 @@ footer ul li {
 
 /*Product*/
 
+.gdpr-top {
+  background-image: url('/images/pages/privacy.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
 .product-top {
-  /*border-bottom: solid 1px #ECEFF1;*/
   background-image: url('/images/pages/product-banner.jpg');
   background-size: cover;
   background-position: center;
@@ -795,7 +801,7 @@ footer ul li {
 }
 
 @media screen and (min-height: 800px) and (min-width: 1200px) {
-  .product-top {
+  .product-top, .gdpr-top {
     height: 600px;
   }
 }
