@@ -3,7 +3,7 @@ layout: blog-post
 title: Preparing For GDPR
 date:   2018-04-04
 categories: blog
-published: false
+published: true
 
 #thumbnail: /images/logo/mimo-name.svg
 permalink: /blog/preparing-for-gdpr.html
@@ -29,7 +29,7 @@ If you're offering WiFi, you're already collecting personal data - MAC addresses
 
 # Whose responsibility is it?
 
-What you need to do depends on how you've setup your splash pages and who operates them. Which one describes you the best:
+So you're running a public WiFi Network? Staying compliant isn't that hard. What you need to do depends on how you've setup your splash pages and who operates them. Which one describes you the best:
 
 ### "I outsource my WiFi completely"
 
@@ -41,6 +41,8 @@ If your WiFi is 100% operated by a third-party, <a href="/" title="MIMO WiFi mar
 - If your name, address or logo appears on the splash pages, you're the data controller (see below).
 - If your provider shares the data with you, you must include this in your website terms.
 - Find out who your provider shares the data with. It should be in their terms!
+
+Please note: if your provider shares data with you - they must disclose this within the user terms.
 
 ### "I run my own network without a splash page"
 
@@ -77,10 +79,7 @@ With MIMO, we've built tools to help you handle data requests and data deletion 
 *Check list!*
 
 - Ensure your provider is actually compliant with the GDPR.
-- Ensure there's a cookie policy on the splash pages.
-- Ensure there are terms on the splash pages.
-- Ensure there's a privacy policy on the splash pages.
-- Designate a person to be a data controller.
+- Ensure the user can opt-in to data processing & marketing messages
 - Update your terms.
 
 If you're capturing emails, make sure you terms explicitly state this. Make sure they explain where these emails are and what they're used for.
@@ -95,7 +94,7 @@ If you're running your own splash pages, your customers can contact you and requ
 
 Whether you're providing your own WiFi or use a third-party, you must be able send the user and data they request and be able to delete them completely. <b>You can read about <a href="https://oh-mimo.com/gdpr-wifi-tools/" target="_blank">MIMO's GDPR tools here</a></b>.
 
-## I'm Capturing Emails Via MailChimp
+### I'm Capturing Emails Via MailChimp
 
 You've included an email form on your site or splash pages. The emails are added directly to your MailChimp account.
 
@@ -106,6 +105,12 @@ You've included an email form on your site or splash pages. The emails are added
 - You must sign the <a href="https://kb.mailchimp.com/accounts/management/about-mailchimp-the-eu-swiss-privacy-shield-and-the-gdpr">MailChimp Data Processing Agreement</a>
 
 If you've already captured emails, we recommend you email your entire list and ask them to re-confirm their subscription. What a pain.
+
+### Should I Enable Double Opt-In?
+
+It's not strictly required to enable double opt-in for your emails but we recommend it. Double opt-in means the user gets an email from you to confirm their subscription.
+
+Whilst it's not compulsory, we recommend it because the new rules require you to prove the user gave their consent to email marketing. This prevents a user from entering a random (or someone else's) email on the splash pages (or any other form).
 
 ### Data Requests - The Worst Case
 
