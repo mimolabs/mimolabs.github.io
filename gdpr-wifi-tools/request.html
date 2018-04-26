@@ -1,0 +1,79 @@
+---
+layout: fixed-header
+title: Request your data | GDPR
+description: Request all of your data captured through splash pages in line with GDPR.
+permalink: /gdpr-wifi-tools/request
+redirect_from:
+- /gdpr/request
+---
+<div class="page-content">
+  <!-- <div class="gdpr-top">
+    <div class="row align-center banner">
+      <div class="large-10 columns text-center">
+      </div>
+    </div>
+  </div> -->
+</div>
+
+<div class="bg-container">
+  <div class="row banner align-center">
+    <div class="large-11 medium-11 small-11 columns">
+      <div class="row align-center align-middle flat-card splash-examples">
+        <div class="large-10 medium-10 small-12 columns text-center">
+          <h1>Request Your Data</h1>
+        </div>
+        <div class="large-10 medium-10 small-12 columns text-center">
+          <p>We've made it super easy for you to view all of your data.</p>
+          <p>All you need to do is enter your email below and we'll send you a link. Simples.</p>
+        </div>
+        <div class="large-10 medium-10 small-12 columns text-center">
+          <p>Enter your email address:</p>
+          <div class="row align-center align-middle">
+            <div class="large-8 medium-8 small-10">
+              <form id="request" name="dataRequest">
+                <div class="input-group">
+                  <input autofocus class="input-group-field" name="email" type="email" required>
+                  <input type="hidden" name="origin" value="mimo">
+                  <div class="input-group-button">
+                    <input id="submit" type="submit" class="button" value="Request">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <small id="success" class="hide">If we have data associated with that email, you will receive a link shortly.</small>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<script>
+  var email;
+  var origin;
+  var url = 'https://api.ctapp.io';
+
+  var success = function() {
+    $('#success').removeClass('hide');
+    $('#submit').prop('disabled', function(i, v) { return !v; });
+  };
+
+$(document).on("submit", "#request",  function( event ) {
+  console.log('APPLES')
+  event.preventDefault();
+  var values = $(this).serialize();
+  email = $('input[name="email"]').val();
+  origin = $('input[name="origin"]').val();
+
+  $.ajax({
+    type: 'POST',
+    url: url + '/api/v1/person_timelines',
+    data: $(this).serialize(),
+    error: function(){
+    },
+    success: success,
+  });
+});
+</script>
