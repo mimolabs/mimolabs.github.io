@@ -5,7 +5,7 @@ date:   2018-05-01
 categories: blog
 published: true
 #thumbnail: /images/logo/mimo-name.svg
-permalink: /blog/gdpr-features.html
+permalink: /blog/gdpr-features-special.html
 keywords: WiFi splash pages and email capture for cafes, hotels and small businesses. Meraki splash page. Ruckus splash. UniFi splash. Ubiquiti splash. WYSIWYG. Splash design.
 description: With the GDPR deadline looming close, we've been working hard making sure your splash pages are legally compliant!
 ---
