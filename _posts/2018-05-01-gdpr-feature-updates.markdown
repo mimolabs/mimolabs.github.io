@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: All-New Features and Updates - GDPR Special | May '18
-date:   2018-04-01
+date:   2018-05-01
 categories: blog
 published: true
 #thumbnail: /images/logo/mimo-name.svg
