@@ -51,6 +51,11 @@ They just need to enter their email address at the below url, and they will be s
 
 They’ll see a similar timeline to the one above, will be able to delete and download all their datas. High five.
 
+## Double Opt-in Email Capture
+
+To keep you GDPR compliant when you use internal integration with your Email login type, your guests will now be sent an email upon signing in to confirm that they agree to their email being used for newsletters/marketing purposes.
+
+Their email will __not__ show in your lists until they confirm this.
 
 ## Non-EU Friends
 
