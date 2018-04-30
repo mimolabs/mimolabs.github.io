@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: All-New Features and Updates - GDPR Special | May '18
-date:   2018-05-01
+date:   2018-04-01
 categories: blog
 published: true
 #thumbnail: /images/logo/mimo-name.svg
@@ -68,7 +68,9 @@ And for a non-GDPR feature updates...
   <img src='/images/posts/password-login.png' style="border-radius: 4px;border: none;box-shadow: none;">
 </div>
 
-We've
+Due to popular request, we've implemented password logins!
+
+Selecting this login method will require your guests to enter the password you have set in order to log in. You can also set MIMO to automatically create, update, and send you a new password on the days you decide.
 
 
 ## New Splash Editor Style Options
