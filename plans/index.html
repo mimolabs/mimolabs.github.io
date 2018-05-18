@@ -35,221 +35,443 @@ function navactive() {
     </button>
   </div>
 
-  <div class="row align-center banner plans-banner">
+  <div class="row align-center banner plans-banner" style="padding-bottom: 0px;">
     <div class="plans-card-row large-12 columns text-center">
       <h2>Super Simple Pricing</h2>
-      <p>Pay-per-user. No additional costs per access point. No restrictions on sessions. <b>Unlimited access points</b>!</p>
-      <p>Pricing is based on the total number of people in your MIMO account. Your monthly price automatically adjusts as your business grows. Your company can have unlimited admins, splash pages and access points.</p>
-
-      <div class="row align-center">
-        <div class="large-4 medium-4 small-12 columns">
-          <div class="center-cell plans-card small-12 columns text-center">
-            <div class="plan-title text-center">
-              <h3>Welcome</h3>
-            </div>
-            <div class="plan-price text-center">
-              <h2>From £19/mo</h2>
-            </div>
-            <div class="plan-features-list text-center">
-              <p>Welcome your guests with beautifully simple splash pages.</p>
-            </div>
-            <div>
-              <button class="button engage" iidata-open="engageModal" data-plan='splash'>Pricing</button>
-            </div>
-          </div>
-        </div>
-        <div class="large-4 medium-4 small-12 columns align-center">
-          <div class="center-cell plans-card small-12 columns text-center">
-            <div class="plan-title text-center">
-              <h3>Engage</h3>
-            </div>
-            <div class="plan-price text-center">
-              <h2>From £79/mo</h2>
-            </div>
-            <div class="plan-features-list text-center">
-              <p>Engage with your guests and drive retention with automated campaigns.</p>
-            </div>
-            <div>
-              <button class="button engage" data-plan="engage" iidata-open="engageModal">Pricing</button>
-            </div>
-          </div>
-        </div>
-        <div class="large-4 medium-4 small-12 columns">
-          <div class="center-cell plans-card small-12 columns text-center">
-            <div class="plan-title text-center">
-              <h3>Engage Plus</h3>
-            </div>
-            <div class="plan-price text-center">
-              <h2>Contact Us</h2>
-            </div>
-            <div class="plan-features-list text-center">
-              <p>Need more than 100,000 emails/mo? Have other needs? Get in touch!</p>
-            </div>
-            <div>
-              <a class="contact button">Contact</a>
-            </div>
-          </div>
-        </div>
-        <div class="large-6 medium-8 small-12 columns signedup">
-          <h3>High-fives! Go forth and check your email for the secret password.</h3>
-        </div>
-        <div class="large-6 medium-8 small-12 columns signup">
-          <h2>Start your 14 day free trial</h2>
-          <p>Enter your business email to sign-up.</p>
-          <div class="input-group" style="margin-top:40px;margin-bottom:40px;">
-            <input class="input-group-field" name="email" type="text" placeholder="Enter your business email">
-            <div class="input-group-button">
-              <input type="submit" id="submitButton" class="button taggy-mc-tagpants" value="Submit">
-            </div>
-          </div>
-          <p><b>14 day free trial</b>. Quick and easy setup!</p>
-        </div>
-      </div>
+      <ul class="tabs" data-tabs id="plans-tabs">
+        <li class="tabs-title is-active"><a href="#mimo" aria-selected="true">Cloud Based MIMO</a></li>
+        <li class="tabs-title"><a href="#community" data-tabs-target="community">Community Edition</a></li>
+      </ul>
     </div>
   </div>
-  <div class="row banner align-center hide-for-small-only">
+
+  <div class="row banner align-center" style="padding-top: 20px;">
     <div class="large-12 small-12 text-center columns">
-      <h1>What's Included?</h1>
-    </div>
-    <div class="large-7 small-12 columns">
-      <table>
-        <thead>
-          <tr>
-            <th></th>
-            <th width="200">Welcome Plan</th>
-            <th width="150">Engage Plan</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Beautiful Splash Pages</td>
-            <td>&#10003;</td>
-            <td>&#10003;</td>
-          </tr>
-          <tr>
-            <td>Unlimited Access Points</td>
-            <td>&#10003;</td>
-            <td>&#10003;</td>
-          </tr>
-          <tr>
-            <td>Unlimited Networks</td>
-            <td>&#10003;</td>
-            <td>&#10003;</td>
-          </tr>
-          <tr>
-            <td>Unlimited Integrations</td>
-            <td>&#10003;</td>
-            <td>&#10003;</td>
-          </tr>
-          <tr>
-            <td>Data Capture</td>
-            <td>&#10003;</td>
-            <td>&#10003;</td>
-          </tr>
-          <tr>
-            <td>MailChimp Connector</td>
-            <td>&#10003;</td>
-            <td>&#10003;</td>
-          </tr>
-          <tr>
-            <td>SMS/OTP Login*</td>
-            <td></td>
-            <td>&#10003;</td>
-          </tr>
-          <tr>
-            <td>Automated Campaigns</td>
-            <td></td>
-            <td>&#10003;</td>
-          </tr>
-          <tr>
-            <td>Outbound Messaging</td>
-            <td></td>
-            <td>&#10003;</td>
-          </tr>
-          <tr>
-            <td>Audience Targeting</td>
-            <td></td>
-            <td>&#10003;</td>
-          </tr>
-        </tbody>
-      </table>
-      <small><b>$$$ and €€€ pricing available too. Nice.</b></small>
-    </div>
-  </div>
 
-  <div class="row text-center align-center hide-for-small-only">
-    <div class="text-center large-7 medium-7 small-12 columns" style="margin-top:30px;">
-      <h2>Messaging Pricing</h2>
-      <table>
-        <thead>
-          <tr>
-            <th class="text-center"></th>
-            <th width="150" class="text-center">USD</th>
-            <th width="150" class="text-center">EUR</th>
-            <th width="150" class="text-center">GBP</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Per Email</td>
-            <td>Free</td>
-            <td>Free</td>
-            <td>Free</td>
-          </tr>
-          <tr>
-            <td>Per SMS*</td>
-            <td>$0.10</td>
-            <td>€0.10</td>
-            <td>£0.08</td>
-          </tr>
-        </tbody>
-      </table>
-      <p style="font-size:14px;line-height:18px;">*Only available on the Engage Plan. Includes 100 free SMS/mo.<br>Includes both Login SMS and Contact SMS.<br>SMS feature in Beta - prices may fluctuate.</p>
-    </div>
-  </div>
+      <div data-tabs-content="plans-tabs">
+        <div class="tabs-panel is-active" id="mimo">
+          <div class="row align-center" style="padding-bottom: 40px;">
+            <div class="small-12 columns">
+              <p>Pay-per-user. No additional costs per access point. No restrictions on sessions. <b>Unlimited access points</b>!</p>
+              <p>Pricing is based on the total number of people in your MIMO account. Your monthly price automatically adjusts as your business grows. Your company can have unlimited admins, splash pages and access points.</p>
+            </div>
+          </div>
+
+          <div class="row align-center plans-card-row">
+
+            <div class="large-4 medium-6 small-12 columns">
+              <div class="card plans-card text-center">
+                <div class="card-section">
+                  <div class="plan-title text-center">
+                    <h3>Welcome</h3>
+                  </div>
+                  <div class="plan-price text-center">
+                    <h2>From £19/mo</h2>
+                  </div>
+                  <div class="plan-features-list text-center">
+                    <p>Welcome your guests with beautifully simple splash pages.</p>
+                  </div>
+                  <div>
+                    <button class="button engage" iidata-open="engageModal" data-plan='splash'>Pricing</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="large-4 medium-6 small-12 columns">
+              <div class="card plans-card text-center">
+                <div class="card-section">
+                  <div class="plan-title text-center">
+                    <h3>Engage</h3>
+                  </div>
+                  <div class="plan-price text-center">
+                    <h2>From £79/mo</h2>
+                  </div>
+                  <div class="plan-features-list text-center">
+                    <p>Engage with your guests and drive retention with automated campaigns.</p>
+                  </div>
+                  <div>
+                    <button class="button engage" iidata-open="engageModal" data-plan='splash'>Pricing</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="large-4 medium-6 small-12 columns">
+              <div class="card plans-card text-center">
+                <div class="card-section">
+                  <div class="plan-title text-center">
+                    <h3>Engage Plus</h3>
+                  </div>
+                  <div class="plan-price text-center">
+                    <h2>Contact Us</h2>
+                  </div>
+                  <div class="plan-features-list text-center">
+                    <p>Need more than 100,000 emails/mo? Have other needs? Get in touch!</p>
+                  </div>
+                  <div>
+                    <a class="contact button">Contact</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="large-6 medium-8 small-12 columns signedup">
+              <h3>High-fives! Go forth and check your email for the secret password.</h3>
+            </div>
+            <div class="large-6 medium-8 small-12 columns signup">
+              <h2>Start your 14 day free trial</h2>
+              <p>Enter your business email to sign-up.</p>
+              <div class="input-group" style="margin-top:40px;margin-bottom:40px;">
+                <input class="input-group-field" name="email" type="text" placeholder="Enter your business email">
+                <div class="input-group-button">
+                  <input type="submit" id="submitButton" class="button taggy-mc-tagpants" value="Submit">
+                </div>
+              </div>
+              <p><b>14 day free trial</b>. Quick and easy setup!</p>
+            </div>
+          </div>
+
+          <div class="row align-center">
+            <div class="large-12 small-12 text-center columns hide-for-small-only" style="margin-top:40px;">
+              <h1>What's Included?</h1>
+            </div>
+            <div class="large-7 small-12 columns hide-for-small-only">
+              <table>
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th width="200">Welcome Plan</th>
+                    <th width="150">Engage Plan</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Beautiful Splash Pages</td>
+                    <td>&#10003;</td>
+                    <td>&#10003;</td>
+                  </tr>
+                  <tr>
+                    <td>Unlimited Access Points</td>
+                    <td>&#10003;</td>
+                    <td>&#10003;</td>
+                  </tr>
+                  <tr>
+                    <td>Unlimited Networks</td>
+                    <td>&#10003;</td>
+                    <td>&#10003;</td>
+                  </tr>
+                  <tr>
+                    <td>Unlimited Integrations</td>
+                    <td>&#10003;</td>
+                    <td>&#10003;</td>
+                  </tr>
+                  <tr>
+                    <td>Data Capture</td>
+                    <td>&#10003;</td>
+                    <td>&#10003;</td>
+                  </tr>
+                  <tr>
+                    <td>MailChimp Connector</td>
+                    <td>&#10003;</td>
+                    <td>&#10003;</td>
+                  </tr>
+                  <tr>
+                    <td>SMS/OTP Login*</td>
+                    <td></td>
+                    <td>&#10003;</td>
+                  </tr>
+                  <tr>
+                    <td>Automated Campaigns</td>
+                    <td></td>
+                    <td>&#10003;</td>
+                  </tr>
+                  <tr>
+                    <td>Outbound Messaging</td>
+                    <td></td>
+                    <td>&#10003;</td>
+                  </tr>
+                  <tr>
+                    <td>Audience Targeting</td>
+                    <td></td>
+                    <td>&#10003;</td>
+                  </tr>
+                </tbody>
+              </table>
+              <small><b>$$$ and €€€ pricing available too. Nice.</b></small>
+            </div>
+          </div>
+
+          <div class="row text-center align-center hide-for-small-only">
+            <div class="text-center large-7 medium-7 small-12 columns" style="margin-top:30px;">
+              <h2>Messaging Pricing</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th class="text-center"></th>
+                    <th width="150" class="text-center">USD</th>
+                    <th width="150" class="text-center">EUR</th>
+                    <th width="150" class="text-center">GBP</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Per Email</td>
+                    <td>Free</td>
+                    <td>Free</td>
+                    <td>Free</td>
+                  </tr>
+                  <tr>
+                    <td>Per SMS*</td>
+                    <td>$0.10</td>
+                    <td>€0.10</td>
+                    <td>£0.08</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p style="font-size:14px;line-height:18px;">*Only available on the Engage Plan. Includes 100 free SMS/mo.<br>Includes both Login SMS and Contact SMS.<br>SMS feature in Beta - prices may fluctuate.</p>
+            </div>
+          </div>
+
+          <div class="row banner text-center align-center hide-for-small-only">
+            <div class="large-10 columns">
+              <div class="row align-middle">
+                <div class="small-12 columns">
+                  <h2 style="margin-bottom: 80px;">Things You Should Know</span></h2>
+                </div>
+                <div class="large-6 medium-6 small-12 columns faqs">
+                  <h4>You charge for people, what are people?</h4>
+                  <p>Everyone with a unique ID in your MIMO account counts towards the total number of people in your account at any one time.</p>
+                </div>
+                <div class="large-6 medium-6 small-12 columns faqs">
+                  <h4>What if a person has multiple devices?</h4>
+                  <p>Where possible, we'll bundle them together under one ID so you only pay for a single person. You can also manually merge people too.</p>
+                </div>
+                <div class="large-6 medium-6 small-12 columns faqs">
+                  <h4>What happens when I delete some people?</h4>
+                  <p>If you delete some people, you'll be billed less next month assuming you've dropped into a lower tier. You don't need to do anything else.</p>
+                </div>
+                <div class="large-6 medium-6 small-12 columns faqs">
+                  <h4>Can I try both plans during the 14 day trial?</h4>
+                  <p>Sure you can. We recommend you try the Engage Plan first because it's pretty freaking awesome.</p>
+                </div>
+                <div class="large-6 medium-6 small-12 columns faqs">
+                  <h4>What do you mean by emails?</h4>
+                  <p>Emails are outbound messages that are sent when events occur. You can create campaigns that send your messages when your customer first connects or if they don't come back for a while.</p>
+                </div>
+                <div class="large-6 medium-6 small-12 columns faqs">
+                  <h4>How many emails can I send?</h4>
+                  <p>On the Engage Plan, you get 100,000 emails included every month. That's a lot. If you go over, you can hop onto the Engage Plus Plan. It's unlikely you'll go over though.</p>
+                </div>
+                <div class="large-6 medium-6 small-12 columns faqs">
+                  <h4>Do you offer discounts?</h4>
+                  <p>No we don't, everyone gets the same great deal.</p>
+                </div>
+                <div class="large-6 medium-6 small-12 columns faqs">
+                  <h4>How many access points can I add?</h4>
+                  <p>As many as you freaking want. There are no additional costs for APs.</p>
+                </div>
+              </div>
+              <a href="/join" class="button">Start Your 14 Day Free Trial</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="tabs-panel is-active" id="community">
+          <div class="row align-center" style="padding-bottom: 40px;">
+            <div class="small-12 columns">
+              <h3>Coming Soon</h3>
+              <p>Install MIMO yourself on-premises or in the cloud!</p>
+              <p>If you're interested or have any questions, drop us a message, and we'll get back to you as soon as we can.</p>
+            </div>
+          </div>
 
 
-  <div class="row banner text-center align-center hide-for-small-only">
-    <div class="large-10 columns">
-      <div class="row align-middle">
-        <div class="small-12 columns">
-          <h2 style="margin-bottom: 80px;">Things You Should Know</span></h2>
+          <div class="row align-center community-plans-card-row">
+
+            <div class="large-4 medium-6 small-12 columns">
+              <div class="card plans-card text-center">
+                <div class="card-section">
+                  <div class="plan-title text-center">
+                    <h3>Core</h3>
+                  </div>
+                  <div class="plan-price text-center">
+                    <h2>Free</h2>
+                  </div>
+                  <div class="plan-features-list text-center">
+                    <p>Install a streamlined version of the MIMO platform on your own servers - for FREE!</p>
+                  </div>
+                  <div>
+                    <a class="contact button">Contact</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- <div class="row align-center">
+            <div class="small-12 columns">
+              <h2>Addons</h2>
+            </div>
+
+            <div class="large-4 medium-6 small-12 columns">
+              <div class="card plans-card text-center">
+                <div class="card-section">
+                  <div class="plan-title text-center">
+                    <h3>Radius</h3>
+                  </div>
+                  <div class="plan-price text-center">
+                    <h2>From £19/mo</h2>
+                  </div>
+                  <div class="plan-features-list text-center">
+                    <p>Welcome your guests with beautifully simple splash pages.</p>
+                  </div>
+                  <div>
+                    <a class="contact button">Contact</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="large-4 medium-6 small-12 columns">
+              <div class="card plans-card text-center">
+                <div class="card-section">
+                  <div class="plan-title text-center">
+                    <h3>Campaign</h3>
+                  </div>
+                  <div class="plan-price text-center">
+                    <h2>From £19/mo</h2>
+                  </div>
+                  <div class="plan-features-list text-center">
+                    <p>Welcome your guests with beautifully simple splash pages.</p>
+                  </div>
+                  <div>
+                    <a class="contact button">Contact</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="large-4 medium-6 small-12 columns">
+              <div class="card plans-card text-center">
+                <div class="card-section">
+                  <div class="plan-title text-center">
+                    <h3>Partners</h3>
+                  </div>
+                  <div class="plan-price text-center">
+                    <h2>From £19/mo</h2>
+                  </div>
+                  <div class="plan-features-list text-center">
+                    <p>Welcome your guests with beautifully simple splash pages.</p>
+                  </div>
+                  <div>
+                    <a class="contact button">Contact</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div> -->
+
+          <div class="row align-center community-plans-card-row" style="padding-top: 20px;">
+            <div class="small-12 columns">
+              <h2>Support</h2>
+            </div>
+
+            <div class="large-4 medium-6 small-12 columns">
+              <div class="card plans-card text-center">
+                <div class="card-section">
+                  <div class="plan-title text-center">
+                    <h3>Installation</h3>
+                  </div>
+                  <div class="plan-price text-center">
+                    <h2>One Off Fee</h2>
+                  </div>
+                  <div class="plan-features-list text-center">
+                    <p>Have our team get you up and running quickly with a server running MIMO.</p>
+                  </div>
+                  <div>
+                    <a class="contact button">Contact</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="large-4 medium-6 small-12 columns">
+              <div class="card plans-card text-center">
+                <div class="card-section">
+                  <div class="plan-title text-center">
+                    <h3>Enterprise Support</h3>
+                  </div>
+                  <div class="plan-price text-center">
+                    <h2>From £5,000/yr</h2>
+                  </div>
+                  <div class="plan-features-list text-center">
+                    <p>Get continued support from our team with maintaining and using MIMO.</p>
+                  </div>
+                  <div>
+                    <a class="contact button">Contact</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row align-center">
+            <div class="large-12 small-12 text-center columns hide-for-small-only" style="margin-top:40px;">
+              <h1>What's Included?</h1>
+            </div>
+            <div class="large-7 small-12 columns hide-for-small-only">
+              <table>
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th width="300" class="text-center">Core Community Edition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Splash Pages</td>
+                    <td>&#10003;</td>
+                  </tr>
+                  <tr>
+                    <td>Social WiFi</td>
+                    <td>&#10003;</td>
+                  </tr>
+                  <tr>
+                    <td>Integrations</td>
+                    <td>&#10003;</td>
+                  </tr>
+                  <tr>
+                    <td>Support</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Campaigns</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>RADIUS Server</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+             </div>
+          </div>
+
         </div>
-        <div class="large-6 medium-6 small-12 columns faqs">
-          <h4>You charge for people, what are people?</h4>
-          <p>Everyone with a unique ID in your MIMO account counts towards the total number of people in your account at any one time.</p>
-        </div>
-        <div class="large-6 medium-6 small-12 columns faqs">
-          <h4>What if a person has multiple devices?</h4>
-          <p>Where possible, we'll bundle them together under one ID so you only pay for a single person. You can also manually merge people too.</p>
-        </div>
-        <div class="large-6 medium-6 small-12 columns faqs">
-          <h4>What happens when I delete some people?</h4>
-          <p>If you delete some people, you'll be billed less next month assuming you've dropped into a lower tier. You don't need to do anything else.</p>
-        </div>
-        <div class="large-6 medium-6 small-12 columns faqs">
-          <h4>Can I try both plans during the 14 day trial?</h4>
-          <p>Sure you can. We recommend you try the Engage Plan first because it's pretty freaking awesome.</p>
-        </div>
-        <div class="large-6 medium-6 small-12 columns faqs">
-          <h4>What do you mean by emails?</h4>
-          <p>Emails are outbound messages that are sent when events occur. You can create campaigns that send your messages when your customer first connects or if they don't come back for a while.</p>
-        </div>
-        <div class="large-6 medium-6 small-12 columns faqs">
-          <h4>How many emails can I send?</h4>
-          <p>On the Engage Plan, you get 100,000 emails included every month. That's a lot. If you go over, you can hop onto the Engage Plus Plan. It's unlikely you'll go over though.</p>
-        </div>
-        <div class="large-6 medium-6 small-12 columns faqs">
-          <h4>Do you offer discounts?</h4>
-          <p>No we don't, everyone gets the same great deal.</p>
-        </div>
-        <div class="large-6 medium-6 small-12 columns faqs">
-          <h4>How many access points can I add?</h4>
-          <p>As many as you freaking want. There are no additional costs for APs.</p>
-        </div>
+
       </div>
-      <a href="/join" class="button">Start Your 14 Day Free Trial</a>
     </div>
   </div>
+
+
+
+
+
 
 </div>

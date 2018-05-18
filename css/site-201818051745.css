@@ -114,6 +114,24 @@
 
 /*body*/
 
+.disabled img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.disabled h4, .disabled small {
+  color: rgba(150, 150, 150, 0.8);
+}
+
+.card {
+  border: 1px solid #ECEFF1;
+  border-radius: 15px;
+}
+
+.card p {
+  color: rgba(71, 82, 93, 0.8);
+}
+
 .invisible-man {
   display: none;
 }
@@ -630,7 +648,7 @@ footer ul li {
   margin: 38px 0 22px 0;
 }
 
-.blog-post h1, h2, h3, h4 {
+.blog-post h1, .blog-post h2, .blog-post h3, .blog-post h4 {
   margin: 36px 0 20px 0;
 }
 
@@ -703,33 +721,21 @@ footer ul li {
   margin-bottom: 30px;
 }
 
-.plans-card-row > .row > div:nth-child(1) > h3 {
-  margin-bottom: 0px;
-}
-
-.plans-card-row > .row > div:nth-child(1) > .plans-card > .plan-price > h2 {
+.plans-card-row > div:nth-child(1) > .plans-card > .card-section > .plan-price > h2 {
   color: #0088bb;
 }
 
-.plans-card-row > .row > div:nth-child(2) > .plans-card {
+.plans-card-row > div:nth-child(2) > .plans-card {
   border-color: #90d6ae;
   box-shadow: 0 0 10px rgba(23, 172, 91,.5);
 }
 
-.plans-card-row > .row > div:nth-child(2) > .plans-card > .plan-price > h2 {
+.plans-card-row > div:nth-child(2) > .plans-card > .card-section > .plan-price > h2 {
   color: #17ac5b;
 }
 
-.plans-card-row > .row > div:nth-child(3) > .plans-card > .plan-price > h2{
+.plans-card-row > div:nth-child(3) > .plans-card > .card-section > .plan-price > h2{
   color: #f1476d;
-}
-
-.plans-card {
-  margin-top: 20px;
-  padding: 20px;
-  border: 1px solid #ECEFF1;
-  border-radius: 15px;
-  height: 100%;
 }
 
 .plan-title {
@@ -782,6 +788,53 @@ footer ul li {
 
 .faqs {
   margin-bottom: 40px;
+}
+
+#plans-tabs {
+  margin: 0;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #ECEFF1;
+  background: transparent;
+}
+
+#plans-tabs a {
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 500;
+  color: rgba(0,0,0,0.8);
+}
+
+#plans-tabs .is-active {
+  border-width: 0px 0px 2px 0px;
+  border-style: solid;
+  border-color: #EF476F;
+  background: transparent;
+}
+
+#plans-tabs .is-active a {
+  padding-bottom: 19px;
+  background: transparent;
+}
+
+
+/* community plans  */
+
+.community-plans-card-row > div:nth-child(1) > .plans-card {
+  border-color: #90d6ae;
+  box-shadow: 0 0 10px rgba(23, 172, 91,.5);
+}
+
+.community-plans-card-row > div:nth-child(1) > .plans-card > .card-section > .plan-price > h2 {
+  color: #17ac5b;
+}
+
+.community-plans-card-row > div:nth-child(2) > .plans-card > .card-section > .plan-price > h2 {
+  color: #0088bb;
+}
+
+.community-plans-card-row > div:nth-child(3) > .plans-card > .card-section > .plan-price > h2{
+  color: #f1476d;
 }
 
 /*Product*/
@@ -1195,3 +1248,37 @@ footer ul li {
     border-radius: 8px;
   }
 }
+
+/* installations */
+
+.installations .card-img img {
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+}
+
+.installations .card-img {
+  height: 100px;
+  padding: 20px 40px;
+  align-items: center
+}
+
+/* integrations */
+
+.row.banner.integrations {
+  padding-top: 0px;
+}
+
+.integrations .card-img img {
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+}
+
+.integrations .card-img {
+  height: 100px;
+  padding: 20px 40px;
+  align-items: center
+}
+
+/*  */

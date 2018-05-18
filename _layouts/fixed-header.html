@@ -23,12 +23,15 @@ layout: default
         </ul>
       </div>
       <div id="nav-menu" class="top-bar-right hide-for-small-only-nav invisible-man">
-        <ul class="dropdown menu" data-dropdown-menu>
+        <ul class="dropdown menu" data-dropdown-menu data-options="disableHover:true;clickOpen:true">
           <li>
-            <a title="MIMO Splash Pages and Email Marketing Tools" href="/product">Product</a>
-          </li>
-          <li>
-            <a title='Unifi, OpenMesh and Meraki Social Logins and Email Marketing' href="/how-it-works">How It Works</a>
+            <a title="MIMO Splash Pages and Email Marketing Tools" href="#">Product &#9662;</a>
+            <ul class="menu">
+              <li><a id="product" href="/product/">Core Features</a></li>
+              <li><a id="gdpr" href="/gdpr-wifi-tools/">GDPR Compliance</a></li>
+              <li><a id="manufacturers" href="/how-to-install/">Community Edition</a></li>
+              <li><a id="product" href="/integrations/">Integrations</a></li>
+            </ul>
           </li>
           <li><a title="MIMO Splash Pages and Email Marketing" href="/plans">Pricing</a></li>
           <li><a title="MIMO Social Logins and Email Marketing" class="button register-button" href="/join">Register</a></li>
