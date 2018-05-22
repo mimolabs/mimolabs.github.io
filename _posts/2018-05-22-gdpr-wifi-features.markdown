@@ -30,6 +30,6 @@ We've add loads of features to keep you and your customers safe. These include:
 - Personalised user data request tools!
 - Heck, we even moved our service into the EU completely
 
-Let us know how we're doing on <a href='https://twitter/ohmimo'>https://twitter/ohmimo</a>
+Let us know how we're doing on <a href='https://twitter/ohmimo'>https://twitter.com/ohmimo</a>
 
 Our friends at Cucumber Tony have also written a blog about this <a href="https://blog.ct-networks.io/gdpr-roundup-getting-your-wifi-in-shape-387929de1ffa">here</a>.
