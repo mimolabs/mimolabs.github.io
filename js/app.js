@@ -39,7 +39,7 @@ function checkPartner() {
   var partner_id = url.searchParams.get("partner_id");
 
   if ( partner_id !== undefined && partner_id !== '' && partner_id !== null) {
-    createCookie('partner_id',partner_id,7);
+    createCookie('mimo_pid',partner_id,7);
   }
 }
 
@@ -50,7 +50,7 @@ function createCookie(name,value,days) {
 		var expires = "; expires="+date.toGMTString();
 	}
 	else var expires = "";
-	document.cookie = name+"="+value+expires+"; path=/";
+	document.cookie = name+"="+value+expires+";domain=.oh-mimo.com;path=/";
 }
 
 $('a.register-button').click( function() {
