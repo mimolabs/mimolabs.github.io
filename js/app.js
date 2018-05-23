@@ -54,7 +54,6 @@ $('input#submitButton').click( function() {
 
   if (email && isEmail(email)) {
     var partner = Cookies.get('mimo_pid');
-    console.log(partner)
     $.ajax({
       url: 'https://api.ctapp.io/api/v1/holding_accounts',
       type: 'post',
