@@ -29,6 +29,30 @@ function isEmail(email) {
   return regex.test(email);
 }
 
+$(document).ready(function(){
+  checkPartner();
+});
+
+function checkPartner() {
+  var url_string = window.location.href;
+  var url = new URL(url_string);
+  var partner_id = url.searchParams.get("partner_id");
+
+  if ( partner_id !== undefined && partner_id !== '' && partner_id !== null) {
+    createCookie('partner_id',partner_id,7);
+  }
+}
+
+function createCookie(name,value,days) {
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+	}
+	else var expires = "";
+	document.cookie = name+"="+value+expires+"; path=/";
+}
+
 $('a.register-button').click( function() {
   // alert(123);
   // fbq('track', 'Lead');
@@ -37,12 +61,25 @@ $('a.register-button').click( function() {
 
 $('input#submitButton').click( function() {
   var email = $('input[name="email"]').val();
+
+  function readCookie(name) {
+  	var nameEQ = name + "=";
+  	var ca = document.cookie.split(';');
+  	for(var i=0;i < ca.length;i++) {
+  		var c = ca[i];
+  		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+  		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+  	}
+  	return null;
+  }
+
   if (email && isEmail(email)) {
+    var partner = readCookie('partner_id');
     $.ajax({
       url: 'https://api.ctapp.io/api/v1/holding_accounts',
       type: 'post',
       dataType: 'json',
-      data: { email: email },
+      data: { email: email, partner_id: partner },
       success: function(data) {
         window.location.href = "/signed-up";
         // $('.signup').hide();
