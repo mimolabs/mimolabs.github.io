@@ -363,15 +363,8 @@ body, html {
   border-bottom: 1px solid #eceff1;
 }
 
-.overlay-sub {
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 .overlay-sub h3 a {
-  color: #1FAD5C;
+  color: rgba(71, 82, 93, 0.8);
   font-weight: 400;
 }
 
