@@ -148,7 +148,7 @@ $('.slider').on('moved.zf.slider', function(){
       $('.enterpriseNo').hide();
       $('.enterpriseYes').show();
       $('.monthlyCost').hide();
-      $('.totalPrice').html('Contact us for enterprise costs.');
+      $('.totalPrice').html('Contact Us.');
       return;
     }
     $('.enterpriseNo').show();
