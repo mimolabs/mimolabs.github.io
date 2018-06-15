@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: MIMO Community Edition - A Self Hosted Solution
-date:   2018-06-14
+date: 2018-06-13
 categories: blog
 published: true
 permalink: /blog/community-edition.html

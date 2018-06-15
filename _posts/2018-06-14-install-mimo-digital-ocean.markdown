@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: Installing the MIMO Community Edition on Digital Ocean
-date: 2018-06-12
+date: 2018-06-14
 categories: blog
 published: true
 permalink: /blog/install-mimo-digital-ocean.html
@@ -17,9 +17,9 @@ Here's how you can get your very own guest access / WiFi hotspot service / splas
 
 ## Step 1 - Create a Digital Ocean Server
 
-If you don't have an account already, use [this](https://m.do.co/c/8504487cbb3a) link to get $10 worth of credits. 
+If you don't have an account already, use [this](https://m.do.co/c/8504487cbb3a) link to get $10 worth of credits.
 
-Create a server with **2GB** RAM. It'll cost you $10 per month. You can try with less RAM but it's not recommended. 
+Create a server with **2GB** RAM. It'll cost you $10 per month. You can try with less RAM but it's not recommended.
 
 Use Ubuntu 16.04 and select the NYC region. You can use another region but the NYC one seems fastest!
 
@@ -39,7 +39,7 @@ Hit the create button and wait about 60 seconds.
 
 You need a domain to use MIMO - we don't support accessing the service via IP address.
 
-If you don't have one, go and buy one from someone like [namecheap](https://namecheap.pxf.io/c/1248558/386170/5618). 
+If you don't have one, go and buy one from someone like [namecheap](https://namecheap.pxf.io/c/1248558/386170/5618).
 
 Get the IP address of your installation from the Digital Ocean portal and add some A-records. You'll need to add the following:
 
@@ -54,7 +54,7 @@ These should all point at your IP address. They should also use your domain!
 
 ## Install MIMO
 
-The full installation instructions are over [here](https://github.com/mimolabs/mimo-docker). 
+The full installation instructions are over [here](https://github.com/mimolabs/mimo-docker).
 
 SSH to your server:
 
