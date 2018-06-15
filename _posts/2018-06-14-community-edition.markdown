@@ -10,7 +10,7 @@ description: Install a streamlined version of the MIMO platform on your own serv
 ---
 # MIMO Community Edition
 
-We're quite excited to introduce the upcoming MIMO Community Edition to you all. It's almost here!
+It's almost here so we're quite excited to introduce the upcoming MIMO Community Edition to you all!
 
 The community edition is essentially a standalone version of MIMO that you can install and host yourselves - something customers have been asking us about for quite a while.
 
