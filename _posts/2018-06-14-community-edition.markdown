@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: MIMO Community Edition - A Self Hosted Solution
-date:   2018-06-11
+date:   2018-06-14
 categories: blog
 published: true
 permalink: /blog/community-edition.html
@@ -10,13 +10,13 @@ description: Install a streamlined version of the MIMO platform on your own serv
 ---
 # MIMO Community Edition
 
-We're quite excited to introduce the MIMO Community Edition to you all.
+We're quite excited to introduce the upcoming MIMO Community Edition to you all. It's almost here!
 
 The community edition is essentially a standalone version of MIMO that you can install and host yourselves - something customers have been asking us about for quite a while.
 
-It gives you everything you need to run your own self-hosted splash pages!
+It will give you everything you need to run your own self-hosted splash pages!
 
-Oh, and it's completely free. That's right - __Free.__
+Oh, and it'll be completely free. That's right - __Free.__
 
 <div class="blog-image flat-card">
   <img src='/images/posts/community-edition.png'>
@@ -25,11 +25,11 @@ Oh, and it's completely free. That's right - __Free.__
 
 You'll have the option to brand your dashboard with your own logos, link your own documents and we'll even generate you your own set of terms.
 
-You can also link your own Intercom or Drift support tools to the dashboard, letting you support your users.
+You'll also be able to link your own Intercom or Drift support tools to the dashboard, letting you support your users.
 
 Setup and installation, while requiring some technical knowledge, is relatively quick and easy.
 
-For more information, check out the link below:
+For more information, and to register your interest, check out the link below:
 
 <a href="/self-hosted-splash-pages/">oh-mimo.com/self-hosted-splash-pages/</a>
 
