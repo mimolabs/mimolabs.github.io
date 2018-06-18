@@ -58,7 +58,7 @@ These should all point at your IP address. They should also use your domain!
 
 ## Install MIMO
 
-The full installation instructions are over [here](https://github.com/mimolabs/mimo-docker).
+The full installation instructions are over <a href="https://github.com/mimolabs/mimo-docker" target="_blank" class="mimo-community">here</a>.
 
 SSH to your server:
 
@@ -107,5 +107,9 @@ An email will have been sent to you with the final setup instructions. It should
 That's it, you're done. Login to your dashboard, add an integration and off you go! Get designing your splash pages.
 
 <hr>
+
+Click below to get started with your own MIMO Community Edition
+
+<a href="https://github.com/mimolabs/mimo-ce" target="_blank" class="button mimo-community">MIMO COMMUNITY EDITION</a>
 
 Let us know how we're doing on <a href='https://twitter/ohmimo'>twitter.com/ohmimo</a>

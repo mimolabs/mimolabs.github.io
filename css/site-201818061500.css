@@ -4,6 +4,12 @@
   -webkit-font-smoothing: antialiased;
 }
 
+.beta {
+  vertical-align: super;
+  font-size: 18px;
+  color: #acacac;
+}
+
 code {
   border-radius: 4px;
 }
