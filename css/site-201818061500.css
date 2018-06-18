@@ -20,6 +20,7 @@ pre.highlight > code {
   background-color: transparent;
   font-weight: normal;
   color: #0a0a0a;
+  font-size: 80%;
 }
 
 pre.highlight {
@@ -27,6 +28,7 @@ pre.highlight {
   padding: 10px;
   border-radius: 4px;
   background: #e6e6e6;
+  margin-bottom: 20px;
 }
 
 .signup-banner {

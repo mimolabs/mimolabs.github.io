@@ -48,17 +48,17 @@ If you don't have one, go and buy one from someone like [namecheap](https://name
 Get the IP address of your installation from the Digital Ocean portal and add some A-records. You'll need to add the following:
 
 ```
-- admin.your-domain
-- api.your-domain
-- dashboard.your-domain
-- splash.your-domin
+admin.your-domain
+api.your-domain
+dashboard.your-domain
+splash.your-domain
 ```
 
 These should all point at your IP address. They should also use your domain!
 
 ## Install MIMO
 
-The full installation instructions are over <a href="https://github.com/mimolabs/mimo-docker" target="_blank" class="mimo-community">here</a>.
+In case you get stuck, the full installation instructions are over <a href="https://github.com/mimolabs/mimo-docker" target="_blank" class="mimo-community">here</a>.
 
 SSH to your server:
 
