@@ -54,7 +54,7 @@ These should all point at your IP address. They should also use your domain!
 
 ## Install MIMO
 
-The full installation instructions are over [here](https://github.com/mimolabs/mimo-docker).
+In case you get stuck, the full installation instructions are over [here](https://github.com/mimolabs/mimo-docker). 
 
 SSH to your server:
 
@@ -66,7 +66,7 @@ You should get logged straight in.
 
 ### Install Docker and Git
 
-Run the following to install Docker on your server.
+Run the following to install Docker on your server. 
 
 ```
 wget -qO- https://get.docker.com/ | sh
