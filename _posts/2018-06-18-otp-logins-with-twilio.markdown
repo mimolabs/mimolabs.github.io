@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: Setting up an OTP splash page with Twilio 
+title: Setting up an OTP splash page with Twilio
 date: 2018-06-17
 categories: blog
 published: true
@@ -8,6 +8,11 @@ permalink: /blog/otp-splash-twilio.html
 keywords: mimo open source, mimo digital ocean, splash pages otp, splash pages twilio, otp splash pages
 description: Learn how to setup an OTP splash page with Twilio and UniFi
 ---
+
+
+<div class="">
+  <img style="border-radius:4px;" src='/images/posts/mimo-twilio.png'>
+</div>
 
 # Setup an OTP login page using the MIMO Community Edition
 
@@ -19,11 +24,11 @@ We'll assume you have your MIMO dashboard working as well as a functioning integ
 
 Login to your Twilio dashboard and grab your Twilio credentials.
 
-<div class="blog-image flat-card">
+<div class="blog-image">
   <img src='/images/posts/twilio-2.png'>
 </div>
 
-<div class="blog-image flat-card">
+<div class="blog-image">
   <img src='/images/posts/twilio-3.png'>
 </div>
 
@@ -31,11 +36,11 @@ Make a note of the account SID and auth token.
 
 ## Step 2 - Create a Splash Page
 
-Login to your MIMO dashboard and create a splash page if you haven't already done so. 
+Login to your MIMO dashboard and create a splash page if you haven't already done so.
 
 Within the splash designer, enable SMS logins. You'll need your Twilio credentials that you got in step 1.
 
-<div class="blog-image flat-card">
+<div class="blog-image">
   <img src='/images/posts/twilio-1.png'>
 </div>
 
@@ -50,4 +55,3 @@ Once you've loaded the splash pages, you should see an SMS login option. Enter y
 <div class="blog-image flat-card">
   <img src='/images/posts/twilio-4.png'>
 </div>
-
