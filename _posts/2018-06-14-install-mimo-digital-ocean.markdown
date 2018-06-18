@@ -6,8 +6,12 @@ categories: blog
 published: true
 permalink: /blog/install-mimo-digital-ocean.html
 keywords: mimo open source, mimo digital ocean, splash pages digital ocean, unifi on digital ocean
-description: Learn how to install MIMO on Digital Ocean
+description: Learn how to install MIMO on Digital Ocean.
 ---
+
+<div class="">
+  <img style="border-radius:4px;" src='/images/posts/mimo-digital-ocean.png'>
+</div>
 
 # Instaling MIMO in less than 30 minutes
 
@@ -23,11 +27,11 @@ Create a server with **2GB** RAM. It'll cost you $10 per month. You can try with
 
 Use Ubuntu 16.04 and select the NYC region. You can use another region but the NYC one seems fastest!
 
-<div class="blog-image flat-card">
+<div class="blog-image">
   <img src='/images/posts/digital-ocean-1.png'>
 </div>
 
-<div class="blog-image flat-card">
+<div class="blog-image">
   <img src='/images/posts/digital-ocean-2.png'>
 </div>
 
@@ -100,6 +104,8 @@ An email will have been sent to you with the final setup instructions. It should
   <img src='/images/posts/mimo-wizard.png'>
 </div>
 
-
-
 That's it, you're done. Login to your dashboard, add an integration and off you go! Get designing your splash pages.
+
+<hr>
+
+Let us know how we're doing on <a href='https://twitter/ohmimo'>twitter.com/ohmimo</a>

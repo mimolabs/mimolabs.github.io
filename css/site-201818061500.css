@@ -4,6 +4,25 @@
   -webkit-font-smoothing: antialiased;
 }
 
+code {
+  border-radius: 4px;
+}
+
+pre.highlight > code {
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+  font-weight: normal;
+  color: #0a0a0a;
+}
+
+pre.highlight {
+  border: 1px solid #cacaca;
+  padding: 10px;
+  border-radius: 4px;
+  background: #e6e6e6;
+}
+
 .signup-banner {
   background: #ecf8fb;
 }
