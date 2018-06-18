@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: Installing the MIMO Community Edition on Digital Ocean
-date: 2018-06-12
+date: 2018-06-14
 categories: blog
 published: true
 permalink: /blog/install-mimo-digital-ocean.html
@@ -9,7 +9,7 @@ keywords: mimo open source, mimo digital ocean, splash pages digital ocean, unif
 description: Learn how to install MIMO on Digital Ocean
 ---
 
-# Instaling MIMO in less than 30 minutes
+# Installing MIMO in less than 30 minutes
 
 The brand-new MIMO Community Edition is here. MIMO is opensource, free to use and has everything you need to offer guest WiFi access.
 
