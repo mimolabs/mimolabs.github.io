@@ -76,3 +76,4 @@ Once you've loaded the splash pages, you should see an SMS login option. Enter y
 </div>
 </div>
 
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"70a5f798d1af96e860c5dfd4f","lid":"1ef2aee276"}) })</script>
