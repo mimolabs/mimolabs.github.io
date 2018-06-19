@@ -15,7 +15,7 @@ description: Learn how to setup an OTP splash page with Twilio and UniFi
 
 # Offering OTP / SMS Logins with MIMO
 
-If you're using the open source version ([MIMO Community Edition](https://oh-mimo.com/self-hosted-splash-pages/)), you can now offer OTP logins. All you need is a functioning version of MIMO and a Twilio account. To setup MIMO, follow the tutorial [here](https://oh-mimo.com/blog/install-mimo-digital-ocean.html) or [here](https://github.com/mimolabs/mimo-docker). It will take you less than 30 minutes to get things running. You can sign-up for a Twilio account [here](https://www.twilio.com/try-twilio).
+If you're using the open source version ([MIMO Community Edition](https://oh-mimo.com/self-hosted-splash-pages/)), you can now offer OTP logins and use your own Twilio account. All you need is a functioning version of MIMO (and a Twilio account). To setup MIMO, follow the tutorial [here](https://oh-mimo.com/blog/install-mimo-digital-ocean.html) or [here](https://github.com/mimolabs/mimo-docker). It will take you less than 30 minutes to get things running. You can sign-up for a Twilio account [here](https://www.twilio.com/try-twilio).
 
 We'll assume you have your MIMO dashboard working as well as a functioning integration (UniFi works well).
 
@@ -54,3 +54,23 @@ Once you've loaded the splash pages, you should see an SMS login option. Enter y
 <div class="blog-image flat-card">
   <img src='/images/posts/twilio-4.png'>
 </div>
+
+<div style="text-align: center">
+<h1>Get Early Access</h1>
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+</style>
+<div id="mc_embed_signup">
+<form action="https://oh-mimo.us18.list-manage.com/subscribe/post?u=70a5f798d1af96e860c5dfd4f&amp;id=1ef2aee276" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<div id="mc_embed_signup_scroll">
+<label for="mce-EMAIL">Join the MIMO Community for early access to new features</label>
+<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_70a5f798d1af96e860c5dfd4f_1ef2aee276" tabindex="-1" value=""></div>
+<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</div>
+</form>
+</div>
+</div>
+
