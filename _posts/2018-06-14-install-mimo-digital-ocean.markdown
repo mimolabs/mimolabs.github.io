@@ -112,5 +112,5 @@ The full installation instructions for the MIMO Community Edition can be found <
 
 Share the love and we might send you a gift.
 
-<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Just installed the MIMO Community Edition on Digital Ocean! @ohmimo @ digitalocean" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Just installed the MIMO Community Edition on Digital Ocean! @ohmimo @digitalocean" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
