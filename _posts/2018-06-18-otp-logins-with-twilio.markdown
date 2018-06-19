@@ -9,7 +9,7 @@ keywords: mimo open source, mimo digital ocean, splash pages otp, splash pages t
 description: Learn how to setup an OTP splash page with Twilio and UniFi
 ---
 
-# Setup an OTP login page using the MIMO Community Edition
+# Offering OTP / SMS Logins with MIMO
 
 If you're using the open source version ([MIMO Community Edition](https://oh-mimo.com/self-hosted-splash-pages/)), you can now offer OTP logins. All you need is a functioning version of MIMO and a Twilio account. To setup MIMO, follow the tutorial [here](https://oh-mimo.com/blog/install-mimo-digital-ocean.html) or [here](https://github.com/mimolabs/mimo-docker). It will take you less than 30 minutes to get things running. You can sign-up for a Twilio account [here](https://www.twilio.com/try-twilio).
 
