@@ -15,7 +15,7 @@ description: Learn how to setup an OTP splash page with Twilio and UniFi
 
 # Offering OTP / SMS Logins with MIMO
 
-If you're using the open source version ([MIMO Community Edition](https://oh-mimo.com/self-hosted-splash-pages/)), you can now offer OTP logins and use your own Twilio account. All you need is a functioning version of MIMO (and a Twilio account). To setup MIMO, follow the tutorial [here](https://oh-mimo.com/blog/install-mimo-digital-ocean.html) or [here](https://github.com/mimolabs/mimo-docker). It will take you less than 30 minutes to get things running. You can sign-up for a Twilio account [here](https://www.twilio.com/try-twilio).
+If you're using the open source version ([MIMO Community Edition](https://oh-mimo.com/community-edition/)), you can now offer OTP logins and use your own Twilio account. All you need is a functioning version of MIMO (and a Twilio account). To setup MIMO, follow the tutorial [here](https://oh-mimo.com/blog/install-mimo-digital-ocean.html) or [here](https://github.com/mimolabs/mimo-docker). It will take you less than 30 minutes to get things running. You can sign-up for a Twilio account [here](https://www.twilio.com/try-twilio).
 
 We'll assume you have your MIMO dashboard working as well as a functioning integration (UniFi works well).
 
