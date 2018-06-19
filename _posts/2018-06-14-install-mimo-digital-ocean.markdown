@@ -113,3 +113,23 @@ Click below to get started with your own MIMO Community Edition
 <a href="https://github.com/mimolabs/mimo-ce" target="_blank" class="button mimo-community">MIMO COMMUNITY EDITION</a>
 
 Let us know how we're doing on <a href='https://twitter/ohmimo'>twitter.com/ohmimo</a>
+
+<div style="text-align: center">
+<h1>Get Early Access</h1>
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+</style>
+<div id="mc_embed_signup">
+<form action="https://oh-mimo.us18.list-manage.com/subscribe/post?u=70a5f798d1af96e860c5dfd4f&amp;id=1ef2aee276" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<div id="mc_embed_signup_scroll">
+<label for="mce-EMAIL">Join the MIMO Community for early access to new features</label>
+<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_70a5f798d1af96e860c5dfd4f_1ef2aee276" tabindex="-1" value=""></div>
+<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</div>
+</form>
+</div>
+</div>
+
