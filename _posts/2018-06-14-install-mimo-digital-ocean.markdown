@@ -13,7 +13,7 @@ description: Learn how to install MIMO on Digital Ocean.
   <img style="border-radius:4px;" src='/images/posts/mimo-digital-ocean.png'>
 </div>
 
-# Instaling MIMO in less than 30 minutes
+# Installing MIMO in less than 30 minutes
 
 The brand-new MIMO Community Edition is here. MIMO is opensource, free to use and has everything you need to offer guest WiFi access.
 
