@@ -31,7 +31,7 @@ Setup and installation, while requiring some technical knowledge, is relatively 
 
 For more information, and to register your interest, check out the link below:
 
-<a href="/self-hosted-splash-pages/">oh-mimo.com/self-hosted-splash-pages/</a>
+<a href="/community-edition/">oh-mimo.com/community-edition/</a>
 
 <hr>
 
