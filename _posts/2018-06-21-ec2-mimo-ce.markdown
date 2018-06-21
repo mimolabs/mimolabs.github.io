@@ -10,7 +10,7 @@ description: Learn how to install MIMO on EC2.
 ---
 
 <div class="">
-  <img style="border-radius:4px;" src='/images/posts/mimo-ec2.png'>
+  <img style="border-radius:4px;" src='/images/posts/mimo-ec2-aws2-01.png'>
 </div>
 
 ## Installing MIMO in less than 30 minutes
