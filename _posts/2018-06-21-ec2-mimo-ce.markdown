@@ -1,0 +1,144 @@
+---
+layout: blog-post
+title: Installing the MIMO Community Edition on EC2
+date: 2018-06-21
+categories: blog
+published: true
+permalink: /blog/opensource-captive-portal-ec2.html
+keywords: mimo open source, mimo ec2, opensource splash pages, unifi on ec2 
+description: Learn how to install MIMO on EC2.
+---
+
+<div class="">
+  <img style="border-radius:4px;" src='/images/posts/mimo-ec2.png'>
+</div>
+
+## Installing MIMO in less than 30 minutes
+
+If you're looking for splash pages, email capture, GDPR compliance features and you want to run everything from EC2, look no futher! Here we'll talk you through everything you need to run MIMO on EC2.
+
+## Step 1 - Create an EC2 Server
+
+Launch an Ubuntu 16 instance with **2GB** RAM - the t2.small should do it. You might need more RAM later on but this one's good to start. You *could* try with less but it's not recommended.
+
+<div class="blog-image">
+  <img src='/images/posts/ec2-mimo-opensource-1.png'>
+</div>
+
+<div class="blog-image">
+  <img src='/images/posts/ec2-mimo-opensource-2.png'>
+</div>
+
+Make sure you click **Configure Instance Details** not the launch instance button. We need to open some firewall ports and increase the storage!
+
+You can skip through the next page - Configure Instance Details - unless you want to change any settings here. Click the **Add Storage** button.
+
+On the following screen, increase the disk size to 25Gb - you can choose less if you're just testing.
+
+<div class="blog-image">
+  <img src='/images/posts/ec2-mimo-opensource-3.png'>
+</div>
+
+Once you've done that, click the **Add Tags** button. You can skip this too unless you want to change these settings too.
+
+Click the **Add Security Group** button and add the following rules to allow http and https traffic to your server.
+
+<div class="blog-image">
+  <img src='/images/posts/ec2-mimo-opensource-4.png'>
+</div>
+
+We also recommend restricting ssh access to this machine too - enter your current public IP to secure things further.
+
+Last but not least, hit Review and Lauch and then **Launch** to get things started.
+
+Wait for about 60 seconds, grab your ssh key and then ssh into your machine:
+
+<div class="blog-image">
+  <img src='/images/posts/ec2-mimo-opensource-5.png'>
+</div>
+
+```
+ssh ubuntu@ip-address
+```
+
+If you setup a public key, you might need to do something like this:
+
+```
+ssh -i ~/.ssh/my-key.pem ubuntu@ip-address
+```
+
+## Setup Your DNS
+
+You need a domain to use MIMO - we don't support accessing the service via IP address.
+
+If you don't have one, go and buy one from someone like [namecheap](https://namecheap.pxf.io/c/1248558/386170/5618).
+
+Create some A-records with your servers public IP. You'll need to add the following:
+
+```
+admin.your-domain
+api.your-domain
+dashboard.your-domain
+splash.your-domain
+```
+
+These should all point at your IP address. They should also use your domain!
+
+## Install MIMO with your server's public IP
+
+In case you get stuck, the full installation instructions are over <a href="https://github.com/mimolabs/mimo-docker" target="_blank" class="mimo-community">here</a>.
+
+SSH to your server:
+
+```
+ssh root@ip-address
+```
+
+You should get logged straight in.
+
+### Install Docker and Git
+
+Run the following to install Docker on your server.
+
+```
+wget -qO- https://get.docker.com/ | sh
+```
+
+This installs Docker & Git on your machine. You may need to install Git manually.
+
+### Install MIMO
+
+Make sure you have your domain. You will also need your email server credentials for this installation.
+
+If you don't enter valid email credentials, your installation will fail!!
+
+```
+sudo -s
+mkdir /var/mimo
+git clone https://github.com/mimolabs/mimo-docker.git /var/mimo
+cd /var/mimo
+./docker-install.sh
+```
+
+The installer will walk you through the setup - it takes about 5 minutes to run.
+
+Once it's done, you should have a fully-functioning service running, fully protected with Let's Encrypt SSL certificates!
+
+### Finish Up
+
+An email will have been sent to you with the final setup instructions. It should take you to a page that looks like this!
+
+<div class="blog-image flat-card">
+  <img src='/images/posts/mimo-wizard.png'>
+</div>
+
+That's it, you're done. Login to your dashboard, add an integration and off you go! Get designing your splash pages.
+
+The full installation instructions for the MIMO Community Edition can be found <a href="https://mimo.ly/docker" target="_blank" class="mimo-community">here</a>!
+
+<hr>
+
+Share the love and we might send you a gift.
+
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Just installed the MIMO Community Edition on EC2! @ohmimo" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+

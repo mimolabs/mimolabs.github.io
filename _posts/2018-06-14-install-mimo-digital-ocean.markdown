@@ -56,7 +56,7 @@ splash.your-domain
 
 These should all point at your IP address. They should also use your domain!
 
-## Install MIMO
+## Install MIMO!
 
 In case you get stuck, the full installation instructions are over <a href="https://github.com/mimolabs/mimo-docker" target="_blank" class="mimo-community">here</a>.
 
