@@ -17,3 +17,5 @@ gems: ['kramdown', 'jekyll-redirect-from', 'jekyll-sitemap']
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
 
 permalink: /community/tutorials/:title.html
+
+theme: jekyll-theme-cayman
